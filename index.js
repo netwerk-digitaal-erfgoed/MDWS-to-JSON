@@ -38,8 +38,8 @@ function saveItem() {
     /// check here for strange results: for example two GUIDS
     /// which indicates an unknown AET (this was the case for 'vafb' for example)
     if (Array.isArray(item["GUID"])) {
-    	console.error("Error: Item has multiple GUIDs. This indicates an unknown AET (archiefeenheidsoort)",item);
-    	process.exit();
+        console.error("Error: Item has multiple GUIDs. This indicates an unknown AET (archiefeenheidsoort)",item);
+        process.exit();
     }
 
     if (i++>0) console.log(",");
