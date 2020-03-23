@@ -1,7 +1,13 @@
 # van MAIS Flexis 'Uitvoer naar MDWS' naar JSON
 Dit script (index.js) maakt van een 'Uitvoer naar MDWS'-tekstbestand een JSON bestand.
 
-Voorbeeld output:
+## Install
+```bash
+npm install
+```
+
+
+## Voorbeeld output:
 ```json
 [
 {
