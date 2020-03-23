@@ -9,7 +9,7 @@ if (!fs.existsSync(filename)) return console.log('File not found: ' + filename);
 
 var item,itemIndex=0,items=[],prevKey;
 var separator = "(1) = ";
-var soorten = csv(fs.readFileSync("archiefeenheidsoorten.csv"))
+var soorten = csv(fs.readFileSync(__dirname + "/archiefeenheidsoorten.csv"))
 
 var lineReader = readline.createInterface({
   input: fs.createReadStream(filename, {encoding: "latin1"})
