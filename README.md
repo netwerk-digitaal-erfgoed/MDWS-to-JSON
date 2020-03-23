@@ -3,6 +3,8 @@ Dit script (index.js) maakt van een 'Uitvoer naar MDWS'-tekstbestand een JSON be
 
 ## Install
 ```bash
+git clone https://github.com/netwerk-digitaal-erfgoed/MDWS-to-JSON
+cd MDWS-to-JSON
 npm install
 ```
 
