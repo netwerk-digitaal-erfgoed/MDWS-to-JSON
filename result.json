@@ -1,0 +1,1473 @@
+[
+{
+    "aet": "abk",
+    "code": "WOGIDS",
+    "na": "Toegang op stukken betreffende de Tweede Wereldoorlog",
+    "id": "2857736",
+    "CATTWD": "Verzamelingen",
+    "THTWD": "Tweede Wereldoorlog",
+    "oai": [
+        "NOB",
+        "APEX"
+    ],
+    "FNC_DTM": "02-01-2020 11:29:12",
+    "GUID": "609C5BB26EA14642E0534701000A17FD"
+}
+{
+    "aet": "hsk",
+    "na": "Inleiding",
+    "id": "2879016",
+    "ahd_id": "2857736",
+    "FNC_DTM": "23-12-2010 09:56:23",
+    "GUID": "609C5BB24CFA4642E0534701000A17FD"
+}
+{
+    "aet": "pgf",
+    "na": "Digitaal bronnenoverzicht",
+    "id": "5047675",
+    "ahd_id": "2879016",
+    "FNC_DTM": "08-02-2011 15:19:04",
+    "GUID": "609C5BC6A0024642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2879018",
+    "ahd_id": "5047675",
+    "na": "In januari 2008 is een begin gemaakt van een landelijk project Wegwijzer archieven van de Tweede wereldoorlog. Doel van dit project is het tot stand brengen van een digitale wegwijzer naar de bij de Nederlandse archiefinstellingen aanwezige archieven en collecties met betrekking tot het nationaal-socialisme en de Tweede Wereldoorlog in relatie tot Nederland, Nederlands-Indië, Suriname en de Nederlandse Antillen.<ZR>Het Utrechtse digitale bronnenoverzicht is te beschouwen als een actualisering van het Bronnenoverzicht voor de geschiedenis van de stad Utrecht in de Tweede Wereldoorlog, dat in 1995 verscheen van de hand van mw. drs. I.E.C.M. Broos. <ZR><ZR>De inleiding van dit bronnenoverzicht wordt hieronder integraal weergegeven.",
+    "FNC_DTM": "08-02-2011 15:19:10",
+    "GUID": "609C5BB27E264642E0534701000A17FD"
+}
+{
+    "aet": "pgf",
+    "na": "Woord vooraf",
+    "id": "5047676",
+    "ahd_id": "2879016",
+    "FNC_DTM": "08-02-2011 15:19:30",
+    "GUID": "609C5BC6A0034642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2879019",
+    "ahd_id": "5047676",
+    "na": "In 1995 is het vijftig jaar geleden dat er een einde kwam aan de Duitse bezetting. In het kader van de viering van vijftig jaar bevrijding heeft de Gemeentelijke Archiefdienst Utrecht dit bronnenoverzicht voor de stad Utrecht in de Tweede Wereldoorlog samengesteld. Dit initiatief van de GAU staat niet alleen: in 1995 wordt een tentoonstelling over dit onderwerp georganiseerd door het Centraal Museum en wordt een wetenschappelijke publicatie over de geschiedenis van de stad Utrecht in de Tweede Wereldoorlog gepresenteerd.<ZR>Utrecht in oorlogstijd kenmerkte zich enerzijds door zaken en gebeurtenissen die niet veel afweken van die in andere Nederlandse steden. Verenigingen werden op last van de Duitsers opgeheven, joodse inwoners van de stad werden gedeporteerd, gebouwen werden gevorderd, sommige Utrechtse bedrijven deden mee aan de Februaristaking en straten die waren genoemd naar leden van het Koninklijk Huis, kregen een Duitsgezinde naam.<ZR>Toch nam Utrecht ook een bijzondere positie in Het was de stad waar verschillende Duitse instanties hun hoofdkwartieren hadden; de NSB zetelde op de Maliebaan en verschillende Weermachtsinstanties waren elders in de stad gevestigd.<ZR>Voor de onderzoeker naar de Tweede Wereldoorlog zal het vinden van de juiste bronnen niet altijd even gemakkelijk zijn. Veel materiaal is tijdens de oorlog verloren gegaan of afgedwaald naar onvoorziene plaatsen. Daarnaast zijn veel bronnen, met name de archieven, nog niet of nauwelijks ontsloten of niet geheel openbaar.",
+    "FNC_DTM": "08-02-2011 15:19:35",
+    "GUID": "609C5BB2E9354642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2879020",
+    "ahd_id": "5047676",
+    "na": "Dit bronnenoverzicht geeft de onderzoeker een overzicht van archiefmateriaal, bibliotheekmateriaal, beeld- en geluidsmateriaal en objecten met betrekking tot de stad Utrecht in de Tweede Wereldoorlog. De bronnen zijn te vinden bij de volgende instellingen: de Gemeentelijke Archiefdienst Utrecht, het Rijksarchief in de provincie Utrecht (inclusief het Provinciekantoor Utrecht voor de nog niet naar het Rijksarchief overgebrachte archieven), het Algemeen Rijksarchief, het Rijksinstituut voor Oorlogsdocumentatie, de Universiteitsbibliotheek Utrecht, het Universiteitsmuseum Utrecht, de Koninklijke Landmacht/Sectie Militaire Geschiedenis, de Koninklijke Luchtmacht/Sectie Luchtmachthistorie, de Koninklijke Bibliotheek, het Film- en fotoarchief van de Rijksvoorlichtingsdienst, het Nederlands Filmmuseum, de Stichting Film en Wetenschap/Audiovisueel Archief; het Centraal Museum Utrecht, het Verzetsmuseum Amsterdam en het Spaarnestad Foto-archief. <ZR>Het bronnenoverzicht is niet volledig. De hoeveelheid bronnen over de oorlogsjaren is zo groot, dat een selectie noodzakelijk was. Dit geldt vooral voor het archiefmateriaal. Archieven die nog niet zijn ontsloten, zijn veelal niet opgenomen in dit overzicht. Uitzondering hierop zijn de archieven van het provinciaal bestuur van Utrecht die op dit moment nog bij het Provinciekantoor berusten, maar te zijner tijd naar het Rijksarchief in de provincie Utrecht zullen worden overgebracht.",
+    "FNC_DTM": "08-02-2011 15:19:35",
+    "GUID": "609C5BB2E9364642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2879021",
+    "ahd_id": "5047676",
+    "na": "De geïnventariseerde archieven berustend bij de Gemeentelijke Archiefdienst zijn in hun geheel onderzocht. Van de geïnventariseerde archieven berustend bij het Algemeen Rijksarchief zijn opgenomen de archieven van de instellingen waarvan bekend is dat de werkzaamheden (ook) in Utrecht plaatshadden, bijvoorbeeld Winterhulp Nederland en de NSB-kring Utrecht en Ommelanden Dit geldt eveneens voor het RIOD, waarvan tevens de archieven zijn opgenomen van verschillende Duitse instellingen en personen die tijdens de oorlogsjaren werkzaam waren in Utrecht. <ZR>Een aparte vermelding verdient de collectie Van Rhenen. Deze particuliere collectie bevat onder meer publicaties, documentatie, kranten en objecten betreffende Utrecht in de Tweede Wereldoorlog. Tevens is in de collectie opgenomen een groot aantal geluidsopnamen van interviews die begin jaren tachtig door Leo van Rhenen zijn afgenomen met een aantal inwoners van de stad Utrecht over de oorlogsjaren. Een klein deel van deze geluidsbanden wordt beheerd door de Stichting Film en Wetenschap (zie 3.2.4 Films, geluidsopnamen - Stichting Film en Wetenschap/Audiovisueel Archief). Voor inlichtingen over de collectie: L. van Rhenen, Graaf Willemlaan 86, 3434 RR Nieuwegein, tel. 03402-64527. <ZR>Doel van dit bronnenoverzicht is onderzoekers een eerste handreiking te bieden bij het verrichten van onderzoek met behulp van de grote hoeveelheid Utrechtse bronnen betreffende de Tweede Wereldoorlog. <ZR><ZR>september 1994 <ZR>I.E.C.M. Broos <ZR>",
+    "FNC_DTM": "08-02-2011 15:19:35",
+    "GUID": "609C5BB2E9374642E0534701000A17FD"
+}
+{
+    "aet": "pgf",
+    "na": "Toelichting voor de gebruiker",
+    "id": "5047677",
+    "ahd_id": "2879016",
+    "FNC_DTM": "08-02-2011 15:20:16",
+    "GUID": "609C5BC6A0044642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2879022",
+    "ahd_id": "5047677",
+    "na": "Voor alle bronnen geldt dat het noodzakelijk is de toegangen aanwezig bij de verschillende instellingen te raadplegen in verband met latere aanvullingen en verbeteringen en mogelijke veranderingen in de openbaarheidbepalingen. Bij archiefmateriaal moet bovendien in de toegangen nog de uiterlijke vorm opgezocht worden.<ZR> <ZR><ZR><BCURS>Het archiefmateriaal<ECURS> <ZR>De archieven in dit bronnenoverzicht zijn per archiefbeherende instelling alfabetisch gerangschikt. Per archief worden steeds de volgende gegevens vermeld: <ZR>1. naam van het archief <ZR>2. periode die het archief bestrijkt <ZR>3. soort toegang en zo mogelijk liet nummer van de toegang <ZR>4. soms korte uitleg over de persoon of instelling die het archief heeft gevormd <ZR>5. openbaarheidbeperkingen; indien de openbaarheidbeperking slechts voor een enkel inventarisnummer geldt, is dit vermeld bij het betreffende inventarisnummer <ZR>6. verwijzing naar andere vindplaatsen <ZR>Indien een archief in zijn geheel betrekking heeft op de Tweede Wereldoorlog, zijn alleen bovenstaande gegevens vermeld. Als een gehele rubriek in een inventaris opgenomen is, wordt volstaan met de aanduiding van de betreffende inventarisnummers met tussen rechte haken een korte beschrijving van de stukken in de rubriek of de rubrieksaanduiding. In de andere gevallen worden bepaalde stukken genoemd. <ZR>De nummers vóór de beschrijvingen zijn de inventarisnummers zoals zij te vinden zijn in de bestaande toegangen. Bij sommige niet-geïnventariseerde archieven zijn de beschrijvingen (nog) niet voorzien van een inventarisnummer. Hierbij wordt volstaan met de omschrijving. Tenzij uitdrukkelijk anders vermeld, zijn de omschrijvingen letterlijk overgenomen.",
+    "FNC_DTM": "08-02-2011 15:21:11",
+    "GUID": "609C5BB2E9384642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2879023",
+    "ahd_id": "5047677",
+    "na": "Al die inventarisnummers zijn opgenomen, waarvan in de beschrijving sprake is van gebeurtenissen of zaken die rechtstreeks in verband staan met of het gevolg zijn van de oorlogstoestand. Stukken van algemene aard, zoals notulen van vergaderingen, correspondentie en jaarverslagen, zijn in de meeste gevallen niet opgenomen. De onderzoeker zij er op gewezen dat deze stukken niettemin veel gegevens kunnen bevatten over de oorlogsjaren. Een uitzondering is gemaakt ten aanzien van het archief van het Utrechts Gemeentebestuur na 1813, waarvan de notulen en besluiten uit de oorlogsjaren zijn opgenomen. <ZR>Alle relevante geïnventariseerde archieven berustend bij de GAU zijn in dit overzicht opgenomen. De niet-geïnventariseerde archieven die wel betrekking hebben op de Tweede Wereldoorlog of die relevante stukken bevatten uit de jaren 40-45, worden in een korte lijst genoemd. <ZR>In dit overzicht zijn eveneens opgenomen de archieven van het provinciaal bestuur en andere provinciale overheidsinstellingen in de provincie Utrecht over de oorlogsjaren, die te zijner tijd na inventarisatie naar het Rijksarchief Utrecht zullen worden overgebracht. Door het ontbreken van toegangen kan van dit materiaal niet gedetailleerd bepaald worden welke archieven voor onderzoek naar de stad Utrecht in de Tweede Wereldoorlog van nut zijn, maar kan slechts een indruk gegeven worden van het belang van dit materiaal. Vanzelfsprekend wijkt de weergave van de informatie dan ook af van de rest van het bronnenoverzicht.",
+    "FNC_DTM": "08-02-2011 15:20:28",
+    "GUID": "609C5BB2E9394642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2879024",
+    "ahd_id": "5047677",
+    "na": "Ook voor de archieven die berusten bij het Rijksarchief Utrecht geldt dat beschrijvingen zijn <ZR>opgenomen die niet altijd even duidelijk de stad Utrecht betreffen. In ieder geval zijn die inventarisnummers opgenomen die zeker de provincie Utrecht betreffen en die met grote waarschijnlijkheid informatie over de stad bevatten. Dit geldt ook voor de archieven van de andere instellingen. <ZR>Bij de opsomming van de archieven die berusten bij het Rijksinstituut voor Oorlogsdocumentatie zijn niet steeds weer afzonderlijk de openbaarheidbeperkingen vermeld; voor alle archieven bij <ZR>deze instelling gelden zulke beperkingen. In sommige gevallen kan het RIOD zelf ontheffing <ZR>verlenen; in andere gevallen kan de desbetreffende organisatie of diens rechtsopvolger dit doen.",
+    "FNC_DTM": "08-02-2011 15:20:28",
+    "GUID": "609C5BB2E93A4642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2879025",
+    "ahd_id": "5047677",
+    "na": "<BCURS>Het bibliotheekmateriaal<ECURS><ZR>Tot het bibliotheekmateriaal in dit bronnenoverzicht worden gerekend publicaties, handschriften, documentatie, kranten en tijdschriften. Per instelling zijn de verschillende collecties alfabetisch <ZR>gerangschikt. Ook hierbij zijn de bestaande nummeringen en beschrijvingen gehandhaafd. Voor de collectie dagboeken die het RIOD beheert, gelden dezelfde openbaarheidbeperkingen als <ZR>voor de archieven bij deze instelling.",
+    "FNC_DTM": "08-02-2011 15:20:28",
+    "GUID": "609C5BB2E93B4642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2879026",
+    "ahd_id": "5047677",
+    "na": "<BCURS>Het beeld- en geluidsmateriaal<ECURS><ZR>Onder beeld- en geluidsmateriaal verstaan we in dit overzicht fotos, dias, affiches, kaarten, <ZR>prenten, tekeningen, films en geluidsopnamen. Ook bij deze rubriek zijn de verschillende <ZR>collecties alfabetisch gerangschikt en zijn de bestaande nummeringen en beschrijvingen <ZR>gehandhaafd. Bij bepaalde instellingen is raadpleging van het materiaal kosteloos, bij andere <ZR>worden voor raadpleging en/of gebruik van het materiaal kosten in rekening gebracht. <ZR>",
+    "FNC_DTM": "08-02-2011 15:20:28",
+    "GUID": "609C5BB2E93C4642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2879027",
+    "ahd_id": "5047677",
+    "na": "<BCURS>De objecten<ECURS><ZR>De collectie van het Centraal Museum bevat zon 60 voorwerpen met betrekking tot de Tweede Wereldoorlog. In dit overzicht zijn slechts de voorwerpen opgenomen die specifiek de stad <ZR>Utrecht betreffen. Ook bij de objecten geldt dat de bestaande beschrijvingen en inventarisnummers zijn gehandhaafd.",
+    "FNC_DTM": "08-02-2011 15:20:28",
+    "GUID": "609C5BB2E93D4642E0534701000A17FD"
+}
+{
+    "aet": "inv",
+    "na": "Inventaris",
+    "id": "2879017",
+    "ahd_id": "2857736",
+    "FNC_DTM": "22-12-2010 10:34:49",
+    "GUID": "609C5BB24D114642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "01.",
+    "na": "Toegang 18-4: Strafinrichtingen Utrecht",
+    "id": "2892725",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA4AE484642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "02.",
+    "na": "Toegang 26: Familie Des Tombe",
+    "id": "2892731",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA4A9504642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "03.",
+    "na": "Toegang 59: College van Curatoren Rijksuniversiteit Utrecht",
+    "id": "2908696",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5B9FB14A4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "04.",
+    "na": "Toegang 387: Commissie Beheersconflicten",
+    "id": "2871586",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB0B29D4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "05.",
+    "na": "Toegang 449: Aartsbisdom Utrecht",
+    "id": "2907279",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA09BF94642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "06.",
+    "na": "Toegang 525: Verenigde Bedrijven Bredero NV",
+    "id": "2997816",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA0A4764642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "07.",
+    "na": "Toegang 648: Gemeentelijke Utrechtse Openbare Bibliotheken",
+    "id": "2892945",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA4A6A34642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "08.",
+    "na": "Toegang 650: Collectie Utrechts Verzet",
+    "id": "2892952",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA4A6534642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2907282",
+    "ahd_id": "2892952",
+    "na": "Gehele toegang van toepassing",
+    "FNC_DTM": "18-03-2009 14:16:51",
+    "GUID": "609C5BA09BFC4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.",
+    "na": "Toegang 707: Gemeente Zuilen",
+    "id": "2871584",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB0B29B4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.01.",
+    "na": "Publicaties en verslagen",
+    "id": "2879077",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EE9A4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.02.",
+    "na": "Betrekkingen met andere lichamen",
+    "id": "2879078",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EE9B4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.03.",
+    "na": "Organen, instellingen en functionarissen",
+    "id": "2879079",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EE9C4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.04.",
+    "na": "Personeel",
+    "id": "2879080",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EE9D4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.05.",
+    "na": "Eigendommen",
+    "id": "2879081",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EE9E4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.06.",
+    "na": "Openbare orde",
+    "id": "2879082",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EE9F4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.07.",
+    "na": "Openbare gezondheid",
+    "id": "2879083",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EEA04642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.08.",
+    "na": "Openbare veiligheid",
+    "id": "2879084",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EEA14642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.09.",
+    "na": "Verkeer en vervoer",
+    "id": "2879087",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EEA24642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.10.",
+    "na": "Economische aangelegenheden",
+    "id": "2879088",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EEA34642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.11.",
+    "na": "Maatschappelijke zorg",
+    "id": "2879089",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EEA44642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.12.",
+    "na": "Volksontwikkeling en -opvoeding",
+    "id": "2879096",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5B9E31994642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.13.",
+    "na": "Landsverdediging",
+    "id": "2879097",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EEA54642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.14.",
+    "na": "Justitie",
+    "id": "2879098",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EEA64642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.15.",
+    "na": "Distributiedienst",
+    "id": "2879099",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EEA74642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "09.16.",
+    "na": "Gemeentelijke Luchtbeschermingsdienst",
+    "id": "2879154",
+    "ahd_id": "2871584",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2EEC84642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "10.",
+    "na": "Toegang 712-6: Vereniging Vrijwillige Burgerwacht",
+    "id": "2893012",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA52CB64642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "11.",
+    "na": "Toegang 712-7: St. Eloyen-gasthuis",
+    "id": "2893011",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA52CB84642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "12.",
+    "na": "Toegang 712-9: Handelssociëteit",
+    "id": "2893008",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA62F6B4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "13.",
+    "na": "Toegang 713-9: Entertainment Committee Utrecht",
+    "id": "2871581",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB0B2984642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2907309",
+    "ahd_id": "2871581",
+    "na": "Gehele toegang van toepassing",
+    "FNC_DTM": "18-03-2009 14:45:32",
+    "GUID": "609C5BA09C164642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "14.",
+    "na": "Toegang 714-1: Doopsgezinde gemeente Utrecht",
+    "id": "2871567",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5B9DCC554642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "15.",
+    "na": "Toegang 714-2: Remonstrants-gereformeerde gemeente",
+    "id": "2893021",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA52CBB4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "16.",
+    "na": "Toegang 715-1: Vlaer en Kol",
+    "id": "2893027",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA532134642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "17.",
+    "na": "Toegang 715-3: NV De Korenschoof",
+    "id": "2893023",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA5320F4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "18.",
+    "na": "Toegang 716: Gezelschap Utrechts Brandweer",
+    "id": "2893029",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA532154642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "19.",
+    "na": "Toegang 721: Loodwitfabriek Greve",
+    "id": "2893031",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA532174642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "20.",
+    "na": "Toegang 733: Maatschappij tot Nut van 't Algemeen",
+    "id": "2893033",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA532194642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "21.",
+    "na": "Toegang 736: Utrechtse Rederijkers Kamer \"Molière\"",
+    "id": "2893035",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA5321B4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "22.",
+    "na": "Toegang 746: Kerkeraad Nederlands Hervormde Gemeente Utrecht",
+    "id": "2893039",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA5321E4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "23.",
+    "na": "Toegang 747: Kerkvoogdij Nederlands Hervormde Gemeente Utrecht",
+    "id": "2893040",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA5321F4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "24.",
+    "na": "Toegang 749: Nederlands Hervormde Gemeente Zuilen",
+    "id": "2893045",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA532234642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "25.",
+    "na": "Toegang 756: Stichting Nederlands Volksherstel, afdeling Utrecht",
+    "id": "2893047",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA532244642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2908791",
+    "ahd_id": "2893047",
+    "na": "Gehele archief van toepassing",
+    "FNC_DTM": "24-03-2009 12:15:08",
+    "GUID": "609C5B9FB6784642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "26.",
+    "na": "Toegang 760: USR Triton",
+    "id": "2893050",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA532254642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "27.",
+    "na": "Toegang 761: Theologisch-litterarisch gezelschap \"Secor Dabar\"",
+    "id": "2893053",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA532284642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "28.",
+    "na": "Toegang 763: Huize Molenaar",
+    "id": "2893055",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA5322A4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "29.",
+    "na": "Toegang 766: Fundatie Kamer gerecht van Hogelanden",
+    "id": "2871583",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB0B29A4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "30.",
+    "na": "Toegang 770: Thorbecke Scholengemeenschap",
+    "id": "2893058",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA548D94642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "31.",
+    "na": "Toegang 774: N.V. Tivoli",
+    "id": "2893061",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA543294642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "32.",
+    "na": "Toegang 776: Nederduitsch-Hervormde Gemeentescholen",
+    "id": "2893063",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA5432B4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "33.",
+    "na": "Toegang 777-1: Genootschap Kunstliefde",
+    "id": "2871604",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2C2144642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "34.",
+    "na": "Toegang 778: Gemeentelijke Distributiedienst",
+    "id": "2895589",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2C02A4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "35.",
+    "na": "Toegang 780: Unitas Studiosorum Rheno-Trajectina",
+    "id": "2895590",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2C02B4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "36.",
+    "na": "Toegang 786: N.V. Machinefabriek \"Jaffa\"",
+    "id": "2895591",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2C02C4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "37.",
+    "na": "Toegang 787: Gemeentelijke HBS voor meisjes Wittevrouwenkade",
+    "id": "2893165",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA532304642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "38.",
+    "na": "Toegang 791: Gereformeerde Kerk Utrecht en Zuilen",
+    "id": "2895592",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2C02D4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "39.",
+    "na": "Toegang 792: Rijks HBS Kruisstraat",
+    "id": "2895593",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2C02E4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "40.",
+    "na": "Toegang 794-1: ORK Aalmoezenierskamer",
+    "id": "2895594",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2C02F4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "41.",
+    "na": "Toegang 795: RK Parochie van de H. Antonius",
+    "id": "2893191",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2966F4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "42.",
+    "na": "Toegang 798-9: Hoofdcommissaris van politie te Utrecht",
+    "id": "5047668",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BC995854642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "43.",
+    "na": "Toegang 800: Boekhandel Fa. Wed. J.R. van Rossum",
+    "id": "2871582",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB0B2994642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "44.",
+    "na": "Toegang 801: Utrechts Symfonie Orkest",
+    "id": "2938365",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA0DE3C4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "45.",
+    "na": "Toegang 802: Verzameling  Losse aanwinsten GAU",
+    "id": "2893194",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296724642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "46.",
+    "na": "Toegang 803: Stichting Volkswoningen",
+    "id": "2893206",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2967E4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "47.",
+    "na": "Toegang 804: Utrechts Studenten Corps",
+    "id": "2893207",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2967F4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "48.",
+    "na": "Toegang 806: Vereniging Oud-Utrecht",
+    "id": "2893212",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296844642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "49.",
+    "na": "Toegang 812-7: Leesgezelschap \"Van Allerlei Slag\"",
+    "id": "2893215",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296874642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "50.",
+    "na": "Toegang 816: Diaconie Hervormde gemeente Utrecht",
+    "id": "2871577",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB0B2944642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "51.",
+    "na": "Toegang 819: UVSV/NVVSU",
+    "id": "2893219",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2968A4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "52.",
+    "na": "Toegang 820: Historisch Werkmateriaal",
+    "id": "2893222",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2968D4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "53.",
+    "na": "Toegang 821-1: Gemeentelijk Inkwartieringsbureau voor de Duitse Weermacht",
+    "id": "2871585",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB0B29C4642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2908794",
+    "ahd_id": "2871585",
+    "na": "Gehele archief van toepassing",
+    "FNC_DTM": "24-03-2009 12:27:00",
+    "GUID": "609C5B9FB6794642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "54.",
+    "na": "Toegang 822-3: RK parochie van de H. Willibrordus",
+    "id": "2893225",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296904642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "55.",
+    "na": "Toegang 822-6: RK parochie van OLV Tenhemelopneming",
+    "id": "2893228",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296934642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "56.",
+    "na": "Toegang 825: Nederlands Israëlietische gemeente",
+    "id": "2893231",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296944642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "57.",
+    "na": "Toegang 826: Utrechts Studenten Corps (aanvulling)",
+    "id": "2893237",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2969B4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "58.",
+    "na": "Toegang 828: Openbaar Slachthuis Utrecht",
+    "id": "2893240",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB2969D4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "59.",
+    "na": "Toegang 829: Dienst Openbare Werken Utrecht",
+    "id": "2871580",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB0B2974642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "60.",
+    "na": "Toegang 831-9: SVG s-1 van het Nederlandse Rode Kruis Hulpkorps",
+    "id": "2893244",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296A14642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "61.",
+    "na": "Toegang 831-11: J.P. Fockema Andreae, burgemeester van Utrecht",
+    "id": "2909531",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5B9FB67A4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "62.",
+    "na": "Toegang 833: Verenigde Gods- en Gasthuizen (aanvulling)",
+    "id": "2893252",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296A84642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "63.",
+    "na": "Toegang 836: Koninklijke Nederlandse Jaarbeurs",
+    "id": "2893254",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296A94642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "64.",
+    "na": "Toegang 840: Ooglijdersgasthuis",
+    "id": "2893257",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296AC4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "65.",
+    "na": "Toegang 841: Evangelisch-Lutherse gemeente (aanvulling)",
+    "id": "2893272",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA532334642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "66.",
+    "na": "Toegang 842-1: OKN parochie St. Gertrudis",
+    "id": "2893258",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296AD4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "67.",
+    "na": "Toegang 842-2: OKN parochie St. Marie Achter Clarenburg",
+    "id": "2893259",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296AE4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "68.",
+    "na": "Toegang 842-3: OKN parochie St. Jakobus Achter de Weerd",
+    "id": "2893260",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB296AF4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "69.",
+    "na": "Toegang 843: Centraal Museum Utrecht",
+    "id": "2871579",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB0B2964642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "70.",
+    "na": "Toegang 844: Vereniging van Notarissen",
+    "id": "2893265",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA52CDD4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "71.",
+    "na": "Toegang 845: Utrechtse Woningmaatschappij",
+    "id": "2893268",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA538544642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "72.",
+    "na": "Toegang 847: Doopsgezinde gemeente Utrecht (aanvulling)",
+    "id": "2893276",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA532374642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "73.",
+    "na": "Toegang 848: Fundaties te Utrecht na 1813",
+    "id": "2893280",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA5323B4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "74.",
+    "na": "Toegang 850: Koninklijke DEMKA Staalfabrieken BV",
+    "id": "2893283",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA5323E4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "75.",
+    "na": "Toegang 867: Sociale Raad Utrecht",
+    "id": "2893304",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA2ED574642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "76.",
+    "na": "Toegang 943: NS - Vervoer en exploitatie",
+    "id": "2893307",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA2ED5A4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "77.",
+    "na": "Toegang 957: NS - Hoofdboekhouding",
+    "id": "2893309",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA2ED5C4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "78.",
+    "na": "Toegang 958: NS - Algemene Dienst afdeling 2",
+    "id": "2893310",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA2ED5D4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "79.",
+    "na": "Toegang 1007-1: Gemeentebestuur van Utrecht - Stukken van algemene aard",
+    "id": "2879410",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BA0882F4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "80.",
+    "na": "Toegang 1007-2: Gemeentebestuur van Utrecht - Stukken over afzonderlijke onderwerken zonder classificatienummers",
+    "id": "2879412",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB328474642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.",
+    "na": "Toegang 1007-3: Gemeentebestuur van Utrecht - Stukken over afzonderlijke onderwerpen met classificatienummers",
+    "id": "2871574",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5B9D95854642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.01.",
+    "na": "Openbaar bestuur en administratie (12742-17107)",
+    "id": "2879237",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:18",
+    "GUID": "609C5BB3215A4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.",
+    "na": "Diensten en bedrijven (17108-18619)",
+    "id": "2879238",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB3215B4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.01.",
+    "na": "Secretarie (17108-17157)",
+    "id": "2895495",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA629D54642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.02.",
+    "na": "Gas-, Electriciteits-, (Auto)bus- en Radiobedrijf (17409-17975)",
+    "pe": "",
+    "id": "2895496",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA629D64642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.03.",
+    "na": "Openbaar Slachthuis (17976-18058)",
+    "id": "2905336",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5B9FFDD54642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.04.",
+    "na": "Reinigings-, Markt- en Havendienst (18059-18192)",
+    "id": "2895497",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA629D74642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.05.",
+    "na": "Geneeskundige en Gezondheidsdienst (18193-18248)",
+    "id": "2902852",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5B9F9D1A4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.06.",
+    "na": "Keuringsdienst van Waren (18249-18262)",
+    "id": "2905337",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5B9FFDD64642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.07.",
+    "na": "Bouw- en Woningdienst (18263-18287)",
+    "id": "2905338",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5B9FFDD74642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.08.",
+    "na": "Arbeidsbeurs (18288-18313)",
+    "id": "2895498",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA629D84642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.09.",
+    "na": "Volkskredietbank (18314-18342)",
+    "id": "2895586",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB2C0274642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.10.",
+    "na": "Politie (18368-18505)",
+    "id": "2895499",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA629D94642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.11.",
+    "na": "Brandweer (18506-18583)",
+    "id": "2895500",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA629DA4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.12.",
+    "na": "Voorzieningsdienst (18584-18602)",
+    "id": "2895501",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA629DB4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.02.13.",
+    "na": "Grondbedrijf (18603-18619)",
+    "id": "2895502",
+    "ahd_id": "2879238",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA629DC4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.03.",
+    "na": "Personeel (18620-19136)",
+    "id": "2879239",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB3215C4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.04.",
+    "na": "Eigendom, openbare werken, belastingen (19137-19385)",
+    "id": "2879240",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB3215D4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.05.",
+    "na": "Openbare orde (19386-20101)",
+    "id": "2879241",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB3215E4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.06.",
+    "na": "Openbare gezondheid (20102-22851)",
+    "id": "2879243",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB3215F4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.07.",
+    "na": "Openbare veiligheid (22852-23016)",
+    "id": "2879244",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB321604642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.08.",
+    "na": "Waterstaat (23017-23053)",
+    "id": "2879245",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB321614642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.09.",
+    "na": "Verkeer en vervoer (23054-24695)",
+    "id": "2879246",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB321624642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.10.",
+    "na": "Economische aangelegenheden (24696-25416)",
+    "id": "2879250",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB321654642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.11.",
+    "na": "Arbeid (25417-25566)",
+    "id": "2879251",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB321664642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.12.",
+    "na": "Maatschappelijke zorg, verzekeringswezen (25567-26411)",
+    "id": "2879252",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB321674642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.13.",
+    "na": "Volksontwikkeling en -opvoeding, religie (26412-31117)",
+    "id": "2879247",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB321634642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.14.",
+    "na": "Landsverdediging (31118-31228)",
+    "id": "2879249",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB321644642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.15.",
+    "na": "Justitie (31229-31235)",
+    "id": "2879253",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB321684642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.16.",
+    "na": "Provincie (31244-31246)",
+    "id": "2894344",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA967704642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "81.17.",
+    "na": "Openbaar Bestuur (31247-31277)",
+    "id": "2895444",
+    "ahd_id": "2871574",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BAF49354642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "82.",
+    "na": "Toegang 1007-4: Gemeentebestuur van Utrecht - Geannexeerde gemeenten",
+    "id": "2895445",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BAF49364642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "83.",
+    "na": "Toegang 1100: Gemeentelijke Brandweer Utrecht",
+    "id": "2893457",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA2DDEF4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "84.",
+    "na": "Toegang 1106: Gemeentepolitie Utrecht",
+    "id": "5518280",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BD011584642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "85.",
+    "na": "Toegang 1108: Arbeidsinspectie, 4e district",
+    "id": "2893460",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA2DDF24642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "86.",
+    "na": "Toegang 1111-1: Verzameling losse aanwinsten HUA, fragmentarchieven",
+    "id": "2893462",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA2DDF44642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "87.",
+    "na": "Toegang 1111-2: Verzameling losse aanwinsten HUA, onduidelijke herkomst",
+    "id": "2893463",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA2DDF54642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "88.",
+    "na": "Toegang 1124: Academisch Ziekenhuis Utrecht, bestuur",
+    "id": "2997819",
+    "ahd_id": "2879017",
+    "FNC_DTM": "03-01-2020 15:36:34",
+    "GUID": "609C5BA0A4794642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "89.",
+    "na": "Toegang 1124-1: Academisch Ziekenhuis Utrecht, bestuur",
+    "id": "2999300",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA0D9B84642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "90.",
+    "na": "Toegang 1131: Rotary Club Utrecht",
+    "id": "2893465",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA2DDF74642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "91.",
+    "na": "Toegang 1132: Stadsschouwburg Utrecht",
+    "id": "2893466",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA2DDF84642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "92.",
+    "na": "Toegang 1136: Militair Gezag",
+    "id": "2871587",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BB0B29E4642E0534701000A17FD"
+}
+{
+    "aet": "inl",
+    "id": "2909533",
+    "ahd_id": "2871587",
+    "na": "Gehele toegang van toepassing",
+    "FNC_DTM": "25-03-2009 09:28:27",
+    "GUID": "609C5B9FB1194642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "93.",
+    "na": "Toegang 1138: Vereniging voor Christelijk Voorbereidend Universitair Onderwijs",
+    "id": "2893467",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA2DDF94642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "94.",
+    "na": "Toegang 1141: Societas Studiosorum Reformatorum, afdeling Utrecht",
+    "id": "2895062",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BAF491D4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "95.",
+    "na": "Toegang 1222: Utrechtse schoolvereniging te Utrecht",
+    "id": "5055319",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BCA03044642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "96.",
+    "na": "Toegang 1226: College Blaucapel",
+    "id": "2893468",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA2DDFA4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "97.",
+    "na": "Toegang 1229: NV Pegus",
+    "id": "2893495",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BA5325C4642E0534701000A17FD"
+}
+{
+    "aet": "rub",
+    "code": "98.",
+    "na": "Toegang 1234: Arrondissementsrechtbank Utrecht",
+    "id": "5518315",
+    "ahd_id": "2879017",
+    "FNC_DTM": "02-01-2020 11:29:19",
+    "GUID": "609C5BD011644642E0534701000A17FD"
+}
+]
