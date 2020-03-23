@@ -7,7 +7,7 @@ const filename = process.argv[2];
 if (!filename) return console.log('usage: ./index.js input_file.txt');
 if (!fs.existsSync(filename)) return console.log('File not found: ' + filename);
 
-var item,items=[],prevKey;
+var item,itemIndex=0,items=[],prevKey;
 var separator = "(1) = ";
 var soorten = csv(fs.readFileSync("archiefeenheidsoorten.csv"))
 
@@ -65,7 +65,10 @@ function saveItem() {
     if (!item) console.error("Error: Skip saveItem because item is undefined");
     else if (!item["GUID"]) console.error("Error: Skip saveItem because item has no GUID, id="+item.id);
     else if (Array.isArray(item["GUID"])) console.error("Error: Skip saveItem because item has multiple GUIDs. This might indicate an unknown aetCode - ",item,Object.keys(item));
-    else console.log(JSON.stringify(item,null,4));
+    else {
+      if (itemIndex++>0) console.log(",");
+      console.log(JSON.stringify(item,null,4));
+    }
 }
 
 function updateItem(key,val) {
