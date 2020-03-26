@@ -62,8 +62,13 @@ function nextItem(key,val) {
 
 function saveItem() {
     /// check here for unexpected results: for example two GUIDS
+
+    //soms zit dezelfde GUID 2x in de uitvoer van een record: ontdubbel
+    if (Array.isArray(item["GUID"]) && item["GUID"].length==2 && item["GUID"][0]==item["GUID"][1]) {
+      item["GUID"] = item["GUID"][0];
+    }
+
     if (!item) console.error("Error: Skip saveItem because item is undefined");
-    else if (!item["GUID"]) console.error("Error: Skip saveItem because item has no GUID, id="+item.id);
     else if (Array.isArray(item["GUID"])) console.error("Error: Skip saveItem because item has multiple GUIDs. This might indicate an unknown aetCode - ",item,Object.keys(item));
     else {
       if (itemIndex++>0) console.log(",");
