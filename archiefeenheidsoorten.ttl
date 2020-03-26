@@ -1,0 +1,805 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX soort: <http://archief.io/soort#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+soort:abg rdfs:label "Aanbesteding" ; dc:identfier "443" .
+soort:abk rdfs:label "Archieftoegang" ; dc:identfier "1" .
+soort:abk2 rdfs:label "Archiefblok" ; dc:identfier "301" .
+soort:act rdfs:label "Act" ; dc:identfier "640" .
+soort:ad rdfs:label "Architectdossier" ; dc:identfier "306" .
+soort:adab rdfs:label "Audioalbum" ; dc:identfier "403" .
+soort:adbk rdfs:label "Adresboek" ; dc:identfier "134" .
+soort:adbp rdfs:label "Adresboekpagina" ; dc:identfier "634" .
+soort:adhdr rdfs:label "Aandeelhouder" ; dc:identfier "698" .
+soort:adrs rdfs:label "Adres" ; dc:identfier "366" .
+soort:afb rdfs:label "Afbeelding" ; dc:identfier "836" .
+soort:afb_rht rdfs:label "Afbeeldingen Rijckheyt" ; dc:identfier "9088" .
+soort:aff rdfs:label "Affiche" ; dc:identfier "48" .
+soort:afk rdfs:label "Afkorting" ; dc:identfier "96" .
+soort:afkb rdfs:label "Afkortingbeschrijving" ; dc:identfier "146" .
+soort:agpt rdfs:label "Agendapunt" ; dc:identfier "398" .
+soort:aisch rdfs:label "Akte inschrijving" ; dc:identfier "619" .
+soort:akt rdfs:label "Akte" ; dc:identfier "82" .
+soort:akte rdfs:label "Alle akten" ; dc:identfier "9001" .
+soort:akterk rdfs:label "Erkenningsakte" ; dc:identfier "390" .
+soort:aktve rdfs:label "Echtscheidingsakte" ; dc:identfier "140" .
+soort:aktwk rdfs:label "Akte v. wettiging v. kinderen" ; dc:identfier "141" .
+soort:al rdfs:label "Alinea" ; dc:identfier "666" .
+soort:alb rdfs:label "Fotoalbum" ; dc:identfier "62" .
+soort:all_adres rdfs:label "Alle adressen" ; dc:identfier "9086" .
+soort:allafb rdfs:label "Alle afbeeldingen" ; dc:identfier "9006" .
+soort:allat rdfs:label "Alle aanwijzende tafels" ; dc:identfier "9013" .
+soort:all_avr rdfs:label "Alle soort archiefvormers" ; dc:identfier "9049" .
+soort:allbes rdfs:label "Alle besluiten" ; dc:identfier "9031" .
+soort:allbev rdfs:label "Bevolkingsregister" ; dc:identfier "9007" .
+soort:allbkts rdfs:label "Alle bibliotheeksoorten" ; dc:identfier "9022" .
+soort:all_bouw_mon rdfs:label "Alle gebouwen en monumenten" ; dc:identfier "9057" .
+soort:allbron rdfs:label "Alle Bronnen" ; dc:identfier "9025" .
+soort:allbsakt rdfs:label "Alle BS Akten" ; dc:identfier "9028" .
+soort:all_bvmts rdfs:label "Bevolkingsmutaties" ; dc:identfier "9069" .
+soort:alldfilm rdfs:label "Alle Duitse Films" ; dc:identfier "9010" .
+soort:all_doc_srcb rdfs:label "Alle documenten col. Brands" ; dc:identfier "9081" .
+soort:all_dos rdfs:label "Alle dossiers" ; dc:identfier "9094" .
+soort:alldtb rdfs:label "Alle DTB-boeken" ; dc:identfier "9032" .
+soort:all_eb_db rdfs:label "EB,DB" ; dc:identfier "9087" .
+soort:all_eb_db_chr rdfs:label "EB DB en Charters" ; dc:identfier "9099" .
+soort:alleig rdfs:label "Alle eigendom" ; dc:identfier "9030" .
+soort:all_fest_evmt rdfs:label "Festivals en evenementen" ; dc:identfier "9090" .
+soort:all_ft rdfs:label "Foto bovengronds ROEZG" ; dc:identfier "9070" .
+soort:allftalb rdfs:label "Alle fotos en fotoalbums" ; dc:identfier "9034" .
+soort:allftkrt rdfs:label "Alle foto's en kaarten" ; dc:identfier "9023" .
+soort:all_ged rdfs:label "Gedetineerden NHA" ; dc:identfier "9071" .
+soort:all_geld rdfs:label "Munten en bankbiljetten" ; dc:identfier "9052" .
+soort:all_geluid rdfs:label "Alle Geluidscollecties" ; dc:identfier "9046" .
+soort:allkrnt rdfs:label "Alle kranten" ; dc:identfier "9060" .
+soort:allkrt rdfs:label "Alle kaarten" ; dc:identfier "9008" .
+soort:alllit rdfs:label "Literatuur (ALLLIT)" ; dc:identfier "9005" .
+soort:alllit_2 rdfs:label "Literatuur zonder TSART" ; dc:identfier "9011" .
+soort:all_mon rdfs:label "Monasticon" ; dc:identfier "9019" .
+soort:all_muz rdfs:label "Muziek" ; dc:identfier "9083" .
+soort:allnotschp rdfs:label "Schepen akten" ; dc:identfier "9047" .
+soort:all_ocr_trs rdfs:label "Record met ocr of transcripties" ; dc:identfier "9105" .
+soort:all_oorkondenboek rdfs:label "oorkondenboek" ; dc:identfier "9104" .
+soort:all_pc_wfa rdfs:label "Afbeeldingen WFA" ; dc:identfier "9085" .
+soort:all_pers rdfs:label "Personen en akten" ; dc:identfier "9002" .
+soort:all_pers_2 rdfs:label "Alle Personen" ; dc:identfier "9016" .
+soort:allpgtest rdfs:label "Alle psychologische testen" ; dc:identfier "9024" .
+soort:all_pic rdfs:label "Alle afbeeldingen demo" ; dc:identfier "9018" .
+soort:all_picgea rdfs:label "Afbeeldingen GEA" ; dc:identfier "9026" .
+soort:all_pntr rdfs:label "Alle personen in troepenmacht" ; dc:identfier "9027" .
+soort:all_poparchief rdfs:label "Alle poparchief beschrijvingen" ; dc:identfier "9092" .
+soort:all_poporg_lbl rdfs:label "Poporganisaties en labels" ; dc:identfier "9091" .
+soort:all_publ rdfs:label "Alle publicaties" ; dc:identfier "9067" .
+soort:all_rechterlijk rdfs:label "PD, BB, INDEX" ; dc:identfier "9079" .
+soort:all_reg rdfs:label "Alle regesten" ; dc:identfier "9029" .
+soort:all_snd rdfs:label "Geluidsfragmenten(GDR+GF )" ; dc:identfier "9020" .
+soort:all_toeg rdfs:label "Alle toegangen" ; dc:identfier "9017" .
+soort:all_toegang rdfs:label "Archieftoegangen" ; dc:identfier "9084" .
+soort:all_toppen rdfs:label "Alle toppen" ; dc:identfier "9012" .
+soort:all_verbaal rdfs:label "Hoofdenlijst, klappers en indexen" ; dc:identfier "9065" .
+soort:all_verg rdfs:label "Alle vergunningen" ; dc:identfier "9033" .
+soort:all_verg2 rdfs:label "BD's en BT" ; dc:identfier "9095" .
+soort:all_zig rdfs:label "Indexen" ; dc:identfier "9093" .
+soort:altbst rdfs:label "Altoxml bestand" ; dc:identfier "526" .
+soort:altt rdfs:label "Altoxml toegang" ; dc:identfier "525" .
+soort:altttxt rdfs:label "Altoxml blok" ; dc:identfier "527" .
+soort:anid rdfs:label "Analoge informatiedrager" ; dc:identfier "424" .
+soort:aov rdfs:label "Archievenoverzicht" ; dc:identfier "8" .
+soort:aqac rdfs:label "Acquisitie activiteit" ; dc:identfier "249" .
+soort:aqpr rdfs:label "Acquisitieproject" ; dc:identfier "248" .
+soort:archobj rdfs:label "Archeologisch object" ; dc:identfier "277" .
+soort:art rdfs:label "Artikel" ; dc:identfier "85" .
+soort:arto rdfs:label "Archieftoegang" ; dc:identfier "81" .
+soort:asg rdfs:label "Aanstelling" ; dc:identfier "751" .
+soort:at rdfs:label "Archiefterm" ; dc:identfier "56" .
+soort:aud rdfs:label "Audio" ; dc:identfier "343" .
+soort:audbes rdfs:label "Audiobestand" ; dc:identfier "190" .
+soort:aurehe rdfs:label "Auteursrechthebbende" ; dc:identfier "760" .
+soort:avagorg rdfs:label "Deelnemer AVAG" ; dc:identfier "182" .
+soort:avd rdfs:label "Aan- of verkoopdossier" ; dc:identfier "181" .
+soort:avgp rdfs:label "Akte van geregistreerd partnerschap" ; dc:identfier "893" .
+soort:avit rdfs:label "Akte van indemniteit" ; dc:identfier "233" .
+soort:avr rdfs:label "Archiefvormer" ; dc:identfier "15" .
+soort:avrf rdfs:label "Archiefvormende familie" ; dc:identfier "135" .
+soort:avrp rdfs:label "Archiefvormende persoon" ; dc:identfier "133" .
+soort:avtp rdfs:label "Akte van transport" ; dc:identfier "196" .
+soort:a2a_bev_reg rdfs:label "Groepering tbv A2A Bevolkingsregister()" ; dc:identfier "9041" .
+soort:a2a_bs_geb rdfs:label "Groepering tbv A2A Geboorte (GEB en AKTERK)" ; dc:identfier "9038" .
+soort:a2a_bs_huw rdfs:label "Groepering tbv A2A Huwelijken (HUW en AKTVE)" ; dc:identfier "9039" .
+soort:a2a_bs_ove rdfs:label "Groepering tbv A2A Overlijden (OVE en OVEUIT)" ; dc:identfier "9040" .
+soort:a2a_dtb_begr rdfs:label "Groepering tbv A2A Begraven (BA en BGIN)" ; dc:identfier "9037" .
+soort:a2a_dtb_dopen rdfs:label "Groepering tbv A2A Doopakten (DPIN en DA)" ; dc:identfier "9035" .
+soort:a2a_dtb_trouw rdfs:label "Groepering tbv A2A Trouwen(TRA en TWIN)" ; dc:identfier "9036" .
+soort:a2a_mem_suc rdfs:label "Groepering tbv A2A Memories van Successie()" ; dc:identfier "9042" .
+soort:a2a_mil_reg rdfs:label "Groepering tbv A2A Militieregister()" ; dc:identfier "9048" .
+soort:a2a_not_akt rdfs:label "Groepering tbv A2A Notariële archieven()" ; dc:identfier "9043" .
+soort:a2a_pglst rdfs:label "Groepering tbv A2A Passagiersregisters" ; dc:identfier "9108" .
+soort:ba rdfs:label "Begraafakte" ; dc:identfier "100" .
+soort:baanw rdfs:label "Beschrijving aanwinst" ; dc:identfier "690" .
+soort:bag rdfs:label "Belastingaanslag" ; dc:identfier "138" .
+soort:bb rdfs:label "Boedelbeschrijving" ; dc:identfier "29" .
+soort:bbb rdfs:label "Beeldmateriaal" ; dc:identfier "197" .
+soort:bbb_v rdfs:label "BBB_V" ; dc:identfier "9074" .
+soort:bb_gar rdfs:label "Beeldbank GAR" ; dc:identfier "9107" .
+soort:bb_gvl rdfs:label "Beeldbank Vlissingen" ; dc:identfier "9075" .
+soort:bb_hco rdfs:label "Beeldbank HCO" ; dc:identfier "9059" .
+soort:bb_nha rdfs:label "Beeldbank NHA" ; dc:identfier "9096" .
+soort:bbrf rdfs:label "Borgbrief" ; dc:identfier "288" .
+soort:bb_rhce rdfs:label "Beeldbank RHCE" ; dc:identfier "9050" .
+soort:bbsk rdfs:label "Bouwbestek" ; dc:identfier "137" .
+soort:bb_vpn rdfs:label "Beeldbank VPN" ; dc:identfier "9058" .
+soort:bcs rdfs:label "Bibliotheekcatalogus" ; dc:identfier "83" .
+soort:bd rdfs:label "Bouwdossier" ; dc:identfier "31" .
+soort:bd_gbvg rdfs:label "Bdossier en vergunningen" ; dc:identfier "9101" .
+soort:bdlppr rdfs:label "Boedelpapier" ; dc:identfier "580" .
+soort:bdpn rdfs:label "Borduurpatroon" ; dc:identfier "238" .
+soort:be rdfs:label "Bestek" ; dc:identfier "308" .
+soort:behmem rdfs:label "Behandelmemo" ; dc:identfier "1030" .
+soort:bes rdfs:label "Beschrijving" ; dc:identfier "271" .
+soort:bgin rdfs:label "Begraafinschrijving" ; dc:identfier "158" .
+soort:bgrr rdfs:label "Belastingregister" ; dc:identfier "479" .
+soort:bgrv rdfs:label "Burgerrechtverlening" ; dc:identfier "229" .
+soort:bg_strn_lem rdfs:label "Wetenswaardigheden" ; dc:identfier "9102" .
+soort:bhobj rdfs:label "Bouwhistorisch object" ; dc:identfier "276" .
+soort:bibd rdfs:label "Bibliografisch document" ; dc:identfier "184" .
+soort:bib_gar rdfs:label "Bibliotheek GAR" ; dc:identfier "9106" .
+soort:bib_hua rdfs:label "Bibliotheek HUA" ; dc:identfier "9097" .
+soort:bidp rdfs:label "Bidprentje" ; dc:identfier "111" .
+soort:bkt rdfs:label "Bankbiljet" ; dc:identfier "518" .
+soort:blryb rdfs:label "Blu-ray beschrijving" ; dc:identfier "567" .
+soort:bl_9016 rdfs:label "Bladeren in akten" ; dc:identfier "20001" .
+soort:bl_9017 rdfs:label "Bladeren in personen" ; dc:identfier "20002" .
+soort:bm rdfs:label "Bladmuziek" ; dc:identfier "49" .
+soort:bnm rdfs:label "Bedrijfsnaam" ; dc:identfier "193" .
+soort:bnmf rdfs:label "Bundelniveau voor MAIS-Flexis" ; dc:identfier "588" .
+soort:boek rdfs:label "Boek" ; dc:identfier "27" .
+soort:boekart rdfs:label "Artikel in boek" ; dc:identfier "86" .
+soort:boe_krt rdfs:label "Boeken en kranten" ; dc:identfier "9068" .
+soort:boeks rdfs:label "Boek in serie" ; dc:identfier "97" .
+soort:bouwverg rdfs:label "Bouwvergunning" ; dc:identfier "120" .
+soort:bozk rdfs:label "Bodemonderzoek" ; dc:identfier "903" .
+soort:bpa rdfs:label "Beschrijving in poparchief" ; dc:identfier "148" .
+soort:brf rdfs:label "Brief" ; dc:identfier "51" .
+soort:brfh rdfs:label "Briefhoofd" ; dc:identfier "65" .
+soort:brfreg rdfs:label "Briefregest" ; dc:identfier "381" .
+soort:bsch rdfs:label "Bemanning schip" ; dc:identfier "292" .
+soort:bsd rdfs:label "BSD, RIO of Beleidsterrein" ; dc:identfier "16" .
+soort:bsg rdfs:label "Beschikking" ; dc:identfier "123" .
+soort:bstk rdfs:label "Bestek" ; dc:identfier "650" .
+soort:bstpln rdfs:label "Bestemmingsplan" ; dc:identfier "796" .
+soort:bstr rdfs:label "Bestuurder" ; dc:identfier "230" .
+soort:btek rdfs:label "Bouwtekening" ; dc:identfier "122" .
+soort:btr rdfs:label "Betrokkene" ; dc:identfier "641" .
+soort:bv rdfs:label "Bronverwijzing" ; dc:identfier "52" .
+soort:bvbk rdfs:label "Brievenboek" ; dc:identfier "469" .
+soort:bvg rdfs:label "Bronvermelding" ; dc:identfier "77" .
+soort:bwk rdfs:label "Bouwwerk" ; dc:identfier "191" .
+soort:bwod rdfs:label "Bouwwerkonderdeel" ; dc:identfier "192" .
+soort:bzkdos rdfs:label "BZK Dossier" ; dc:identfier "524" .
+soort:categ rdfs:label "Categorie" ; dc:identfier "173" .
+soort:cd rdfs:label "Compact disc beschrijving" ; dc:identfier "44" .
+soort:cdev rdfs:label "Carte-de-visite" ; dc:identfier "454" .
+soort:cdex rdfs:label "Correspondentie extract" ; dc:identfier "164" .
+soort:cha rdfs:label "Charter" ; dc:identfier "126" .
+soort:class rdfs:label "Classificatiecode" ; dc:identfier "136" .
+soort:cldos rdfs:label "Cliëntendossier" ; dc:identfier "440" .
+soort:clnt rdfs:label "Cliënt" ; dc:identfier "625" .
+soort:clsj rdfs:label "Collateraal subject" ; dc:identfier "459" .
+soort:col rdfs:label "Collectie" ; dc:identfier "14" .
+soort:collvst rdfs:label "Collegevoorstel" ; dc:identfier "1028" .
+soort:comm rdfs:label "commandant/hoofdbewaker" ; dc:identfier "281" .
+soort:contr rdfs:label "Contract" ; dc:identfier "1026" .
+soort:copcat rdfs:label "Copyright categorie" ; dc:identfier "792" .
+soort:cpdr rdfs:label "Correspondentiedossier" ; dc:identfier "364" .
+soort:crst rdfs:label "Criminele sententie" ; dc:identfier "474" .
+soort:crtn rdfs:label "Cartoon" ; dc:identfier "396" .
+soort:ctst rdfs:label "Centsprent" ; dc:identfier "695" .
+soort:da rdfs:label "Doopakte" ; dc:identfier "106" .
+soort:dabk rdfs:label "Deelarchieftoegang" ; dc:identfier "309" .
+soort:d_abku rdfs:label "Abkuerzung" ; dc:identfier "10062" .
+soort:dafb rdfs:label "Digitale afbeelding" ; dc:identfier "372" .
+soort:dagb rdfs:label "Dagboek" ; dc:identfier "202" .
+soort:d_akb rdfs:label "Akzessionsbuch" ; dc:identfier "10083" .
+soort:d_ake rdfs:label "Akzessionsentry" ; dc:identfier "10084" .
+soort:d_ambu rdfs:label "Amtsbuch" ; dc:identfier "10069" .
+soort:d_anbi rdfs:label "Andachtsbildchen" ; dc:identfier "10030" .
+soort:d_apg rdfs:label "Aktenplangruppe" ; dc:identfier "10082" .
+soort:d_azn rdfs:label "Akzession" ; dc:identfier "10070" .
+soort:db rdfs:label "Deelbeschrijving" ; dc:identfier "4" .
+soort:d_besv rdfs:label "Bestandsverzeichnung" ; dc:identfier "10050" .
+soort:d_bibref rdfs:label "Bib Referenz" ; dc:identfier "10063" .
+soort:d_bild rdfs:label "Bild" ; dc:identfier "10089" .
+soort:d_bito rdfs:label "Bild & Ton" ; dc:identfier "10095" .
+soort:d_bser rdfs:label "Bandserie" ; dc:identfier "10006" .
+soort:d_buch rdfs:label "Buch" ; dc:identfier "10019" .
+soort:d_bus rdfs:label "Beständeübersicht" ; dc:identfier "10022" .
+soort:dcbes rdfs:label "Dublin Core beschrijving" ; dc:identfier "414" .
+soort:dcrt rdfs:label "Decreet" ; dc:identfier "699" .
+soort:d_dismas rdfs:label "Disziplinarmassnahme" ; dc:identfier "10060" .
+soort:ddos rdfs:label "Deeldossier" ; dc:identfier "213" .
+soort:delo rdfs:label "Delo" ; dc:identfier "252" .
+soort:den1 rdfs:label "Den 1" ; dc:identfier "351" .
+soort:den2 rdfs:label "Den 2" ; dc:identfier "352" .
+soort:den3 rdfs:label "Den 3" ; dc:identfier "353" .
+soort:d_epbnakt rdfs:label "Retrokonversion" ; dc:identfier "10071" .
+soort:d_ffra rdfs:label "Filmfragment" ; dc:identfier "10041" .
+soort:d_film rdfs:label "Film" ; dc:identfier "10040" .
+soort:d_filmt rdfs:label "Filmteil" ; dc:identfier "10052" .
+soort:d_find rdfs:label "Findbuch" ; dc:identfier "10004" .
+soort:d_firma rdfs:label "Firmenakte" ; dc:identfier "10076" .
+soort:d_foto rdfs:label "Foto" ; dc:identfier "10018" .
+soort:d_gbur rdfs:label "Geburtsurkunde" ; dc:identfier "10037" .
+soort:d_gera rdfs:label "Gerichtsakte" ; dc:identfier "10056" .
+soort:d_gest rdfs:label "Gegenstand" ; dc:identfier "10032" .
+soort:d_glans rdfs:label "Gleisanschluss" ; dc:identfier "10064" .
+soort:d_grakt rdfs:label "Grundakte" ; dc:identfier "10074" .
+soort:dgwdos rdfs:label "DGW Dossier" ; dc:identfier "620" .
+soort:d_heur rdfs:label "Heiratsurkunde" ; dc:identfier "10028" .
+soort:dia rdfs:label "Dia" ; dc:identfier "66" .
+soort:diamat rdfs:label "Diamateriaal" ; dc:identfier "608" .
+soort:digidoc rdfs:label "Digitaal document" ; dc:identfier "604" .
+soort:digifoto rdfs:label "Digitaal gevormde foto" ; dc:identfier "833" .
+soort:diid rdfs:label "Digitale informatiedrager" ; dc:identfier "425" .
+soort:d_instb rdfs:label "Institutionenbeschreibung" ; dc:identfier "10088" .
+soort:d_jusakt rdfs:label "Justizakte" ; dc:identfier "10073" .
+soort:d_kapi rdfs:label "Kapitel" ; dc:identfier "10010" .
+soort:d_karte rdfs:label "Karte" ; dc:identfier "10061" .
+soort:d_kata rdfs:label "Katalog" ; dc:identfier "10023" .
+soort:d_klas rdfs:label "Klassifikation" ; dc:identfier "10007" .
+soort:d_korr rdfs:label "Korrespondenz" ; dc:identfier "10066" .
+soort:dlr rdfs:label "Deelnemer" ; dc:identfier "162" .
+soort:dm rdfs:label "Dummy inventaris" ; dc:identfier "99" .
+soort:dmap rdfs:label "Documentatiemap" ; dc:identfier "270" .
+soort:d_mmo rdfs:label "Medaillen, Münzen und Orden" ; dc:identfier "10098" .
+soort:d_mms rdfs:label "Musikmanuskripte" ; dc:identfier "10065" .
+soort:d_ntbl rdfs:label "Notenblatt" ; dc:identfier "10026" .
+soort:dntni rdfs:label "Deel NTNI" ; dc:identfier "291" .
+soort:doc rdfs:label "Document" ; dc:identfier "700" .
+soort:doos rdfs:label "Doos" ; dc:identfier "200" .
+soort:d_ortb rdfs:label "Ortbeschreibung" ; dc:identfier "10087" .
+soort:dos rdfs:label "Dossier" ; dc:identfier "203" .
+soort:doss rdfs:label "Dossierserie" ; dc:identfier "212" .
+soort:d_pakt rdfs:label "Prozessakte" ; dc:identfier "10075" .
+soort:d_para rdfs:label "Paragraph" ; dc:identfier "10013" .
+soort:d_pbakt rdfs:label "Personenbezogene Akte" ; dc:identfier "10078" .
+soort:d_pers rdfs:label "Person" ; dc:identfier "10059" .
+soort:d_phbes rdfs:label "Bestand" ; dc:identfier "10025" .
+soort:d_phfot rdfs:label "Fotomaterial" ; dc:identfier "10033" .
+soort:d_phmik rdfs:label "Mikrofiche" ; dc:identfier "10015" .
+soort:d_phpap rdfs:label "Papier" ; dc:identfier "10014" .
+soort:d_phsam rdfs:label "Sammlung" ; dc:identfier "10024" .
+soort:dpin rdfs:label "Doopinschrijving" ; dc:identfier "156" .
+soort:d_plak rdfs:label "Plakat" ; dc:identfier "1089" .
+soort:dpm rdfs:label "Diploma" ; dc:identfier "870" .
+soort:d_prov rdfs:label "Provenienz" ; dc:identfier "10011" .
+soort:d_psnb rdfs:label "Personenbeschreibung" ; dc:identfier "10009" .
+soort:d_psur rdfs:label "Person in Urkunde" ; dc:identfier "10036" .
+soort:d_pus rdfs:label "Provenienzübersicht" ; dc:identfier "10021" .
+soort:d_resk rdfs:label "Realien und Skulpturen" ; dc:identfier "10097" .
+soort:d_rfco rdfs:label "Spezialverzeichnis" ; dc:identfier "10080" .
+soort:d_rgst rdfs:label "Regest" ; dc:identfier "10016" .
+soort:drv rdfs:label "Drukvorm" ; dc:identfier "679" .
+soort:drw rdfs:label "Drukwerk" ; dc:identfier "41" .
+soort:d_sakt rdfs:label "Sachakte" ; dc:identfier "10002" .
+soort:d_samv rdfs:label "Sammlungsverzeichnung" ; dc:identfier "10012" .
+soort:d_sb rdfs:label "Sachbeschreibung" ; dc:identfier "10086" .
+soort:dsbl rdfs:label "Dossierbijlage" ; dc:identfier "721" .
+soort:d_selreg rdfs:label "Bewertung" ; dc:identfier "10081" .
+soort:d_sfpv rdfs:label "Spez Findmit pro Verzeichnung" ; dc:identfier "10035" .
+soort:d_sieg rdfs:label "Siegel" ; dc:identfier "10031" .
+soort:d_spfi rdfs:label "Spezifiziertes Findmittel" ; dc:identfier "10034" .
+soort:d_stakt rdfs:label "Steuerakte" ; dc:identfier "10077" .
+soort:dstp rdfs:label "Dienstplichtige" ; dc:identfier "231" .
+soort:d_stur rdfs:label "Sterbeurkunde" ; dc:identfier "10029" .
+soort:d_taur rdfs:label "Taufurkunde" ; dc:identfier "10027" .
+soort:dtb rdfs:label "DTB" ; dc:identfier "9066" .
+soort:dtb_boeken rdfs:label "DTB-boeken" ; dc:identfier "9055" .
+soort:dtbreg rdfs:label "DTB register" ; dc:identfier "475" .
+soort:d_text rdfs:label "Text" ; dc:identfier "10005" .
+soort:d_tkgr rdfs:label "Tektonikgruppe" ; dc:identfier "10017" .
+soort:d_urk rdfs:label "Urkunde" ; dc:identfier "10038" .
+soort:d_urks rdfs:label "Urkunde Serie" ; dc:identfier "10068" .
+soort:d_var rdfs:label "Varia" ; dc:identfier "10057" .
+soort:dvdbs rdfs:label "DVD beschrijving" ; dc:identfier "565" .
+soort:eb rdfs:label "Enkelvoudigebeschrijving" ; dc:identfier "5" .
+soort:ecpd rdfs:label "Encyclopedie" ; dc:identfier "599" .
+soort:ecpg rdfs:label "Encyclopediepagina" ; dc:identfier "637" .
+soort:edmt rdfs:label "Egodocument" ; dc:identfier "449" .
+soort:edoc rdfs:label "Electronisch document" ; dc:identfier "45" .
+soort:egr rdfs:label "Eigenaar" ; dc:identfier "378" .
+soort:emgrt rdfs:label "Emigrant" ; dc:identfier "296" .
+soort:es rdfs:label "Echtscheidingsakte" ; dc:identfier "110" .
+soort:ett rdfs:label "Etiket" ; dc:identfier "375" .
+soort:evb rdfs:label "Enkelvoudige verzamelbeschrijving" ; dc:identfier "686" .
+soort:evmnt rdfs:label "Optreden" ; dc:identfier "644" .
+soort:ext_knmrk rdfs:label "Extern kenmerk" ; dc:identfier "841" .
+soort:fest rdfs:label "Festivaleditie" ; dc:identfier "643" .
+soort:ff rdfs:label "Filmfragment" ; dc:identfier "35" .
+soort:film rdfs:label "Film" ; dc:identfier "34" .
+soort:film_gel rdfs:label "Film en geluidfragment" ; dc:identfier "9109" .
+soort:films rdfs:label "Alle films" ; dc:identfier "9003" .
+soort:fkl rdfs:label "Fotoknipsel" ; dc:identfier "717" .
+soort:fkrap rdfs:label "Filmkeuringsrapport" ; dc:identfier "701" .
+soort:fmbr rdfs:label "Familiebericht" ; dc:identfier "247" .
+soort:fn rdfs:label "Functie" ; dc:identfier "335" .
+soort:fncr rdfs:label "Functionaris" ; dc:identfier "73" .
+soort:fond rdfs:label "Fond" ; dc:identfier "250" .
+soort:foto1 rdfs:label "Eenvoudige foto" ; dc:identfier "19" .
+soort:f_pib rdfs:label "Persoon in bron" ; dc:identfier "867" .
+soort:fsafb rdfs:label "Serie afbeeldingen fysiek" ; dc:identfier "446" .
+soort:fslb rdfs:label "Filmspoel beschrijving" ; dc:identfier "569" .
+soort:ft rdfs:label "Foto" ; dc:identfier "7" .
+soort:ftbg rdfs:label "Foto bovengronds" ; dc:identfier "585" .
+soort:ft_pbk rdfs:label "Foto's en prentbriefkaarten" ; dc:identfier "9044" .
+soort:fts rdfs:label "Fotoserie" ; dc:identfier "60" .
+soort:fwpn rdfs:label "Familiewapen" ; dc:identfier "471" .
+soort:gb rdfs:label "Gebeurtenis" ; dc:identfier "24" .
+soort:gblg rdfs:label "Grondbelasting" ; dc:identfier "494" .
+soort:gbvg rdfs:label "Gebruikersvergunning" ; dc:identfier "800" .
+soort:gdn rdfs:label "Gedetineerde" ; dc:identfier "161" .
+soort:gdop rdfs:label "Geluidsopname" ; dc:identfier "405" .
+soort:gdop_gf rdfs:label "Geluidsopname" ; dc:identfier "9056" .
+soort:gdr rdfs:label "Geluidsdrager" ; dc:identfier "183" .
+soort:gdt rdfs:label "Gedicht" ; dc:identfier "283" .
+soort:gdta rdfs:label "Grondtransactie" ; dc:identfier "239" .
+soort:geb rdfs:label "Geboorteakte" ; dc:identfier "113" .
+soort:gebin rdfs:label "Geboorteinschrijving" ; dc:identfier "573" .
+soort:geen rdfs:label "Geen archiefeenheidsoort" ; dc:identfier "1000" .
+soort:gekopbest rdfs:label "Gekoppeld bestand" ; dc:identfier "154" .
+soort:genbr rdfs:label "Genealogische bron" ; dc:identfier "169" .
+soort:gen_bron rdfs:label "PIBR, DTB, BS" ; dc:identfier "9078" .
+soort:gf rdfs:label "Geluidsfragment" ; dc:identfier "20" .
+soort:gfai rdfs:label "Faillissementsdossier" ; dc:identfier "297" .
+soort:gin rdfs:label "Geïnterneerde" ; dc:identfier "758" .
+soort:gl rdfs:label "Geluid" ; dc:identfier "21" .
+soort:gldt rdfs:label "Geluidstape" ; dc:identfier "564" .
+soort:gmte rdfs:label "Gemeente" ; dc:identfier "481" .
+soort:gneg rdfs:label "Glasnegatief" ; dc:identfier "68" .
+soort:gnre rdfs:label "Genre" ; dc:identfier "659" .
+soort:grak rdfs:label "Gerechtelijke akte" ; dc:identfier "426" .
+soort:grakte rdfs:label "Gerichtsakte" ; dc:identfier "554" .
+soort:greg rdfs:label "Gietregister" ; dc:identfier "682" .
+soort:grf rdfs:label "Graf" ; dc:identfier "453" .
+soort:grfc rdfs:label "Gemeenteraadsfunctie" ; dc:identfier "743" .
+soort:grsl rdfs:label "Grondslag" ; dc:identfier "794" .
+soort:grte rdfs:label "Gratie" ; dc:identfier "702" .
+soort:grvak rdfs:label "Gerechtelijke vervolgakte" ; dc:identfier "542" .
+soort:gstl rdfs:label "Gasteling" ; dc:identfier "232" .
+soort:gtek rdfs:label "Geografische tekening" ; dc:identfier "131" .
+soort:gtest rdfs:label "Gedragstest" ; dc:identfier "360" .
+soort:guidrel rdfs:label "Relatie via GUID" ; dc:identfier "750" .
+soort:gzn rdfs:label "Gezin" ; dc:identfier "286" .
+soort:ha rdfs:label "Hypotheekakte" ; dc:identfier "104" .
+soort:hasc rdfs:label "Handschrift" ; dc:identfier "69" .
+soort:hdu rdfs:label "Hard Disk Unit" ; dc:identfier "79" .
+soort:hh_vergunningen rdfs:label "Hoogheemraadschapsvergunningen" ; dc:identfier "9098" .
+soort:hlg rdfs:label "Handeling" ; dc:identfier "17" .
+soort:hlitm rdfs:label "Hoofdenlijstitem" ; dc:identfier "602" .
+soort:hlk rdfs:label "Hyperlink" ; dc:identfier "210" .
+soort:hsk rdfs:label "Hoofdstuk" ; dc:identfier "36" .
+soort:hua_bd_btek rdfs:label "Bouwdossiers en bouwtekeningen HUA" ; dc:identfier "9053" .
+soort:huw rdfs:label "Huwelijksakte" ; dc:identfier "109" .
+soort:huwafk rdfs:label "Huwelijksafkondiging" ; dc:identfier "155" .
+soort:huwb rdfs:label "Huwelijksbijlage" ; dc:identfier "410" .
+soort:huwdis rdfs:label "Huwelijksdispensatie" ; dc:identfier "284" .
+soort:hwv rdfs:label "Hinderwetvergunning" ; dc:identfier "204" .
+soort:hwv_milv rdfs:label "Vergunningen" ; dc:identfier "9100" .
+soort:hysch rdfs:label "Hypotheekschuldenaar" ; dc:identfier "298" .
+soort:ib rdfs:label "Identiteitsbewijs" ; dc:identfier "865" .
+soort:iddoc rdfs:label "ID Document" ; dc:identfier "356" .
+soort:idxbs rdfs:label "Indexbeschrijving" ; dc:identfier "579" .
+soort:ihsrg rdfs:label "Inschrijving in haardstedenregister" ; dc:identfier "492" .
+soort:iibb rdfs:label "Inschrijving in burgerboek" ; dc:identfier "451" .
+soort:iidb rdfs:label "Inschrijving in dodenboek" ; dc:identfier "461" .
+soort:iigr rdfs:label "Inschrijving in grafrechtregister" ; dc:identfier "883" .
+soort:iikb rdfs:label "Inschrijving in klepboek" ; dc:identfier "450" .
+soort:iimb rdfs:label "Inschrijving in memorieboek" ; dc:identfier "834" .
+soort:iiml rdfs:label "Inschrijving in militieregister" ; dc:identfier "633" .
+soort:iiob rdfs:label "Inschrijving in obituarium" ; dc:identfier "888" .
+soort:iipr rdfs:label "Inschr. in publicatieregister" ; dc:identfier "470" .
+soort:iiral rdfs:label "Inschrijving in register van aangegeven lijken" ; dc:identfier "859" .
+soort:iirs rdfs:label "Inschrijving in resolutie" ; dc:identfier "462" .
+soort:iirvo rdfs:label "Inschrijving in register van overledenen" ; dc:identfier "857" .
+soort:iivdr rdfs:label "Inschrijving voordijregister" ; dc:identfier "495" .
+soort:iiwb rdfs:label "Inschrijving in weesboek" ; dc:identfier "457" .
+soort:ikbv rdfs:label "Indexkaart op Bouwvergunningen" ; dc:identfier "371" .
+soort:ill rdfs:label "Illustratie" ; dc:identfier "223" .
+soort:inbr rdfs:label "Inschrijving in besnijdenisregister" ; dc:identfier "894" .
+soort:incat rdfs:label "Inhoudscategorie" ; dc:identfier "472" .
+soort:index rdfs:label "Index" ; dc:identfier "28" .
+soort:indexbest rdfs:label "Te indexeren bestand" ; dc:identfier "153" .
+soort:inio rdfs:label "Inschrijving in OAT" ; dc:identfier "863" .
+soort:inis rdfs:label "Inschrijving in SAT" ; dc:identfier "864" .
+soort:inkpost rdfs:label "Inkomend poststuk" ; dc:identfier "1025" .
+soort:inl rdfs:label "Inleiding" ; dc:identfier "9" .
+soort:inrn rdfs:label "Inschr.reg.naamsaanneming" ; dc:identfier "486" .
+soort:ins rdfs:label "Inschrijving" ; dc:identfier "407" .
+soort:insg rdfs:label "Inschrijving Synagoge" ; dc:identfier "393" .
+soort:insldmt rdfs:label "Lidmateninschrijving" ; dc:identfier "577" .
+soort:intvw rdfs:label "Interview" ; dc:identfier "244" .
+soort:inv rdfs:label "Inventaris" ; dc:identfier "30" .
+soort:inw rdfs:label "Inwoner" ; dc:identfier "293" .
+soort:iowp rdfs:label "Indexonderwerp" ; dc:identfier "194" .
+soort:ipob rdfs:label "Impost op begraven" ; dc:identfier "402" .
+soort:ipot rdfs:label "Impost op trouwen" ; dc:identfier "401" .
+soort:ipvz rdfs:label "Inschr.Prot.Vol.Zaken" ; dc:identfier "473" .
+soort:isbr rdfs:label "Persoon volkstellingsregister" ; dc:identfier "235" .
+soort:isg rdfs:label "Instelling" ; dc:identfier "862" .
+soort:istk rdfs:label "Ingekomen stuk" ; dc:identfier "491" .
+soort:itbn rdfs:label "Internetbron" ; dc:identfier "657" .
+soort:itm rdfs:label "Item" ; dc:identfier "665" .
+soort:jrg rdfs:label "Jaargang" ; dc:identfier "374" .
+soort:jrnl rdfs:label "Journaal" ; dc:identfier "703" .
+soort:jvg rdfs:label "Jaarverslag" ; dc:identfier "376" .
+soort:kadbr rdfs:label "Kadasterbron" ; dc:identfier "236" .
+soort:kbg rdfs:label "Kampbeschrijving" ; dc:identfier "279" .
+soort:kdad rdfs:label "Kadastrale aanduiding" ; dc:identfier "844" .
+soort:kdart rdfs:label "Kadastraal artikel" ; dc:identfier "842" .
+soort:kdeig rdfs:label "Kadastraal eigenaar" ; dc:identfier "321" .
+soort:kdk rdfs:label "Kadasterkaart" ; dc:identfier "144" .
+soort:kdl rdfs:label "Deelkaart" ; dc:identfier "409" .
+soort:kfie rdfs:label "Kampfunctie" ; dc:identfier "280" .
+soort:khr rdfs:label "Kohier" ; dc:identfier "519" .
+soort:kldr rdfs:label "Kalender" ; dc:identfier "681" .
+soort:klitm rdfs:label "Klapperitem" ; dc:identfier "601" .
+soort:klng rdfs:label "Kloosterling" ; dc:identfier "439" .
+soort:klor rdfs:label "Kloosterorganisatie" ; dc:identfier "70" .
+soort:klr rdfs:label "kampleider" ; dc:identfier "282" .
+soort:kmp rdfs:label "Knipselmap" ; dc:identfier "340" .
+soort:knst rdfs:label "Kunst" ; dc:identfier "689" .
+soort:kof rdfs:label "Kunstwerk op foto" ; dc:identfier "590" .
+soort:kp rdfs:label "Kadastraal plan" ; dc:identfier "307" .
+soort:kplts rdfs:label "Kernplaats" ; dc:identfier "560" .
+soort:krant rdfs:label "Krant" ; dc:identfier "91" .
+soort:krart rdfs:label "Krantenartikel" ; dc:identfier "278" .
+soort:krkld rdfs:label "Kerkenraadslid" ; dc:identfier "322" .
+soort:krleg rdfs:label "Krantenlegger" ; dc:identfier "672" .
+soort:krt rdfs:label "Kaart" ; dc:identfier "32" .
+soort:krtit rdfs:label "Krantentitel" ; dc:identfier "673" .
+soort:krtp rdfs:label "Krantenpagina" ; dc:identfier "90" .
+soort:krt_rks rdfs:label "Kaarten en Kaartreeksen" ; dc:identfier "9015" .
+soort:krt_tng rdfs:label "Kaarten en tekeningen" ; dc:identfier "9045" .
+soort:kunstcol rdfs:label "Kunstcollectie" ; dc:identfier "9103" .
+soort:kvb rdfs:label "Kaartserie" ; dc:identfier "33" .
+soort:kvg rdfs:label "Keurvergunning" ; dc:identfier "227" .
+soort:kvk rdfs:label "Stukken Kamer van Koophandel" ; dc:identfier "13" .
+soort:kwst rdfs:label "Kwartierstaat" ; dc:identfier "748" .
+soort:kzr rdfs:label "Kiezer" ; dc:identfier "160" .
+soort:lbl rdfs:label "Label" ; dc:identfier "645" .
+soort:ldmt rdfs:label "Lidmaat" ; dc:identfier "199" .
+soort:ldr rdfs:label "Landdagreces" ; dc:identfier "72" .
+soort:leg rdfs:label "Kadastrale legger" ; dc:identfier "124" .
+soort:lega rdfs:label "Leggerartikel" ; dc:identfier "383" .
+soort:lem rdfs:label "Lemma" ; dc:identfier "75" .
+soort:lft rdfs:label "Luchtfoto" ; dc:identfier "130" .
+soort:lici rdfs:label "Liste civique" ; dc:identfier "205" .
+soort:lid rdfs:label "Lid" ; dc:identfier "163" .
+soort:lit_gzd rdfs:label "Bibliotheek GZD" ; dc:identfier "9076" .
+soort:lit_nha rdfs:label "Bibliotheek NHA" ; dc:identfier "9082" .
+soort:lit_sad rdfs:label "Literatuur SAD" ; dc:identfier "9089" .
+soort:litvw rdfs:label "Literatuurverwijzing" ; dc:identfier "377" .
+soort:loc rdfs:label "Locatie" ; dc:identfier "94" .
+soort:lozverg rdfs:label "Lozingsvergunning" ; dc:identfier "241" .
+soort:lrg rdfs:label "Leenregister" ; dc:identfier "208" .
+soort:lrlg rdfs:label "Leerling" ; dc:identfier "447" .
+soort:lst rdfs:label "Lijst" ; dc:identfier "11" .
+soort:ltprf rdfs:label "Letterproef" ; dc:identfier "677" .
+soort:ltt rdfs:label "Lettertype" ; dc:identfier "663" .
+soort:lvh rdfs:label "Levensverhaal" ; dc:identfier "78" .
+soort:map rdfs:label "Map" ; dc:identfier "201" .
+soort:mig rdfs:label "Migrant" ; dc:identfier "159" .
+soort:milr rdfs:label "Militair" ; dc:identfier "294" .
+soort:milverg rdfs:label "Milieuvergunning" ; dc:identfier "240" .
+soort:mmld rdfs:label "Milieumelding" ; dc:identfier "476" .
+soort:mnmis rdfs:label "Manumissie" ; dc:identfier "704" .
+soort:mnmnt rdfs:label "Monument" ; dc:identfier "399" .
+soort:mnt rdfs:label "Munt" ; dc:identfier "448" .
+soort:mobo rdfs:label "Morgenboek" ; dc:identfier "628" .
+soort:mpro rdfs:label "Medisch protocol" ; dc:identfier "408" .
+soort:msll rdfs:label "Militaire school leerling" ; dc:identfier "273" .
+soort:mvs rdfs:label "Memorie van successie" ; dc:identfier "215" .
+soort:nabs rdfs:label "Nationaliteitsbewijs" ; dc:identfier "444" .
+soort:neg rdfs:label "Negatief" ; dc:identfier "67" .
+soort:nidx rdfs:label "Naamindex" ; dc:identfier "385" .
+soort:nmverb rdfs:label "Naamsverbetering" ; dc:identfier "116" .
+soort:not rdfs:label "Notulen" ; dc:identfier "206" .
+soort:notakt rdfs:label "Notariële akte" ; dc:identfier "224" .
+soort:notbr rdfs:label "Notariële bron" ; dc:identfier "237" .
+soort:notcor rdfs:label "Notulen en correspondentie" ; dc:identfier "9054" .
+soort:nrrks rdfs:label "Nummerreeks" ; dc:identfier "578" .
+soort:nsk rdfs:label "Negatiefstrook" ; dc:identfier "825" .
+soort:nt rdfs:label "Nadere toegang" ; dc:identfier "18" .
+soort:ntni rdfs:label "Nadere toegang per invnr" ; dc:identfier "54" .
+soort:nwg rdfs:label "Naamswijziging" ; dc:identfier "389" .
+soort:oat rdfs:label "Oorspr. aanwijzende tafel" ; dc:identfier "260" .
+soort:obja rdfs:label "Object in akte" ; dc:identfier "103" .
+soort:objafb rdfs:label "Object op afbeelding" ; dc:identfier "179" .
+soort:objsrt rdfs:label "Objectsoort" ; dc:identfier "406" .
+soort:objt rdfs:label "Object" ; dc:identfier "166" .
+soort:ocrtop rdfs:label "Ocr data" ; dc:identfier "50" .
+soort:ocr_txt rdfs:label "Ocr text" ; dc:identfier "59" .
+soort:octv rdfs:label "Octrooiverlening" ; dc:identfier "326" .
+soort:odos rdfs:label "Objectdossier" ; dc:identfier "718" .
+soort:oginkrant rdfs:label "Onroerend goed in krant" ; dc:identfier "362" .
+soort:ogr rdfs:label "Opdrachtgever" ; dc:identfier "882" .
+soort:ogvg rdfs:label "Omgevingsvergunning" ; dc:identfier "382" .
+soort:ond rdfs:label "Onderwerp met handelingen" ; dc:identfier "25" .
+soort:onrgoed rdfs:label "Onroerend goed" ; dc:identfier "268" .
+soort:onthef rdfs:label "Ontheffing" ; dc:identfier "587" .
+soort:oog rdfs:label "Oorkonde overlevering" ; dc:identfier "838" .
+soort:oor rdfs:label "Oorkonde" ; dc:identfier "837" .
+soort:opis rdfs:label "Opis" ; dc:identfier "251" .
+soort:ops rdfs:label "Opsomming" ; dc:identfier "687" .
+soort:ordon rdfs:label "Ordonnantie" ; dc:identfier "263" .
+soort:orga rdfs:label "Organisatie in akte" ; dc:identfier "395" .
+soort:orgadr rdfs:label "Organisatieadres" ; dc:identfier "171" .
+soort:organ rdfs:label "Organisatie" ; dc:identfier "170" .
+soort:osffr rdfs:label "Oorlogsslachtoffer" ; dc:identfier "705" .
+soort:otreg rdfs:label "Ondertrouwregistratie" ; dc:identfier "174" .
+soort:ove rdfs:label "Overlijdensakte" ; dc:identfier "114" .
+soort:oveuit rdfs:label "Uittreksel overlijdensakte" ; dc:identfier "391" .
+soort:ovevk rdfs:label "Overlijdensverklaring" ; dc:identfier "549" .
+soort:ovin rdfs:label "Overlijdensinschrijving" ; dc:identfier "325" .
+soort:ovlag rdfs:label "Overlijdensaangifte" ; dc:identfier "452" .
+soort:ovlbt rdfs:label "Overlijdensbericht" ; dc:identfier "327" .
+soort:owp rdfs:label "Onderwerp" ; dc:identfier "176" .
+soort:ozgbes rdfs:label "Onderzoeksgidsbestand" ; dc:identfier "755" .
+soort:ozghsk rdfs:label "Onderzoeksgidshoofdstuk" ; dc:identfier "752" .
+soort:ozglnk rdfs:label "Onderzoeksgidslink" ; dc:identfier "756" .
+soort:ozgops rdfs:label "Onderzoeksgidsopsomming" ; dc:identfier "754" .
+soort:ozgozt rdfs:label "Onderzoeksgidsenoverzicht" ; dc:identfier "741" .
+soort:ozgs rdfs:label "Onderzoeksgids" ; dc:identfier "716" .
+soort:ozgtbl rdfs:label "Onderzoeksgidstabeltekst" ; dc:identfier "757" .
+soort:ozgth rdfs:label "Onderzoeksgidstableheader" ; dc:identfier "762" .
+soort:ozgtr rdfs:label "Onderzoeksgidstablerow" ; dc:identfier "761" .
+soort:ozgtst rdfs:label "Onderzoeksgidstekst" ; dc:identfier "719" .
+soort:pap rdfs:label "Papieren stuk" ; dc:identfier "302" .
+soort:pasp rdfs:label "Paspoort" ; dc:identfier "354" .
+soort:pb rdfs:label "Persoonbeschrijving" ; dc:identfier "211" .
+soort:pbctb rdfs:label "Publicatie bovengronds" ; dc:identfier "562" .
+soort:pbcto rdfs:label "Publicatie ondergronds" ; dc:identfier "498" .
+soort:pbelr rdfs:label "Persoon in belastingregister" ; dc:identfier "489" .
+soort:pbk rdfs:label "Prentbriefkaart" ; dc:identfier "46" .
+soort:pbr rdfs:label "Persoon in bevolkingsregister" ; dc:identfier "112" .
+soort:pcvb rdfs:label "Persoon in proces verbaal" ; dc:identfier "418" .
+soort:pd rdfs:label "Procesdossier" ; dc:identfier "26" .
+soort:pdkt rdfs:label "Predikant" ; dc:identfier "328" .
+soort:pdm rdfs:label "Podium" ; dc:identfier "845" .
+soort:pds rdfs:label "Persoonsdossier" ; dc:identfier "906" .
+soort:pen rdfs:label "Penning" ; dc:identfier "76" .
+soort:pepr rdfs:label "Persoon in politieregister" ; dc:identfier "853" .
+soort:perc rdfs:label "Perceel" ; dc:identfier "528" .
+soort:pft rdfs:label "Pamflet" ; dc:identfier "363" .
+soort:pgblr rdfs:label "Pagina in belastingregister" ; dc:identfier "843" .
+soort:pgf rdfs:label "Paragraaf" ; dc:identfier "38" .
+soort:pgik rdfs:label "Pagina in kohier" ; dc:identfier "787" .
+soort:pgkl rdfs:label "Pagina in klapper" ; dc:identfier "789" .
+soort:pglst rdfs:label "Passagierslijst" ; dc:identfier "387" .
+soort:pgna rdfs:label "Pagina" ; dc:identfier "496" .
+soort:pgpb rdfs:label "Pagina in poorterboek" ; dc:identfier "847" .
+soort:pgpr rdfs:label "Pagina in personeelsregister" ; dc:identfier "849" .
+soort:pgpsr rdfs:label "Pagina in pensioenregister" ; dc:identfier "851" .
+soort:pgrm rdfs:label "Programma" ; dc:identfier "886" .
+soort:pibho rdfs:label "Persoon in Bouwhistor Object" ; dc:identfier "485" .
+soort:pibr rdfs:label "Pagina in bevolkingsregister" ; dc:identfier "388" .
+soort:pigrak rdfs:label "Persoon in gerechtelijke akte" ; dc:identfier "890" .
+soort:piib rdfs:label "Persoon in impost op begraven" ; dc:identfier "855" .
+soort:piit rdfs:label "Persoon in impost op trouwen" ; dc:identfier "854" .
+soort:pikvd rdfs:label "Persoon in koopvaardij" ; dc:identfier "793" .
+soort:pin rdfs:label "Pagina in notulen" ; dc:identfier "835" .
+soort:pio rdfs:label "Plaats in oorkonde" ; dc:identfier "839" .
+soort:piob rdfs:label "Persoon in obituarium" ; dc:identfier "889" .
+soort:pior rdfs:label "Persoon in ondertrouwregistratie" ; dc:identfier "856" .
+soort:pipa rdfs:label "Persoon in Provinciaal Archief" ; dc:identfier "551" .
+soort:pipr rdfs:label "Pagina in politieregister" ; dc:identfier "852" .
+soort:piral rdfs:label "Persoon in register van aangegeven lijken" ; dc:identfier "860" .
+soort:pirvo rdfs:label "Persoon in register van overledenen" ; dc:identfier "858" .
+soort:piv rdfs:label "Persoon in vergunning" ; dc:identfier "909" .
+soort:piwa rdfs:label "Persoon in weeskamerarchief" ; dc:identfier "460" .
+soort:piwm rdfs:label "Persoon in register van weerbare mannen" ; dc:identfier "875" .
+soort:plb rdfs:label "Plaatsbepaling" ; dc:identfier "300" .
+soort:pldos rdfs:label "Pleeggezindossier" ; dc:identfier "626" .
+soort:pln rdfs:label "Plaatsnaam" ; dc:identfier "93" .
+soort:pmz rdfs:label "Pagina in militaire zaken" ; dc:identfier "765" .
+soort:pnabs rdfs:label "Persoon nationaliteitsbewijs" ; dc:identfier "445" .
+soort:pngr rdfs:label "Persoon in grafrechtregister" ; dc:identfier "242" .
+soort:pnio rdfs:label "Persoon in oorkonde" ; dc:identfier "840" .
+soort:pnna rdfs:label "Persoon in notariële akte" ; dc:identfier "234" .
+soort:poib rdfs:label "Persoon op identiteitsbewijs" ; dc:identfier "866" .
+soort:poporg rdfs:label "Poporganisatie" ; dc:identfier "639" .
+soort:porto rdfs:label "Portokosten" ; dc:identfier "763" .
+soort:powk rdfs:label "Persoon op woningkaart" ; dc:identfier "458" .
+soort:pp rdfs:label "Politieke partij" ; dc:identfier "744" .
+soort:prac rdfs:label "Projectactiviteit" ; dc:identfier "369" .
+soort:prar rdfs:label "Projectactiviteitrol" ; dc:identfier "370" .
+soort:prbt rdfs:label "Projectbetrokkene" ; dc:identfier "368" .
+soort:prd rdfs:label "Product" ; dc:identfier "400" .
+soort:prent rdfs:label "Prent" ; dc:identfier "61" .
+soort:probe rdfs:label "Procesbeschrijving" ; dc:identfier "255" .
+soort:prodos rdfs:label "Projectdossier" ; dc:identfier "791" .
+soort:prs_von rdfs:label "Personen in Vonnis" ; dc:identfier "9009" .
+soort:prtrt rdfs:label "Portret" ; dc:identfier "747" .
+soort:psa rdfs:label "Persoon in akte" ; dc:identfier "102" .
+soort:psafb rdfs:label "Persoon op afbeelding" ; dc:identfier "178" .
+soort:psb rdfs:label "Persoon in beschikking" ; dc:identfier "127" .
+soort:psbr rdfs:label "Persoon in besnijdenisregister" ; dc:identfier "895" .
+soort:psbw rdfs:label "Persoonsbewijs" ; dc:identfier "438" .
+soort:pschr rdfs:label "Persoon in schepenakte" ; dc:identfier "488" .
+soort:psdos rdfs:label "Persoon in dossier" ; dc:identfier "649" .
+soort:pse rdfs:label "Persoon in erelijst" ; dc:identfier "269" .
+soort:psft rdfs:label "Pasfoto" ; dc:identfier "195" .
+soort:psgen rdfs:label "Persoon in genealogie" ; dc:identfier "285" .
+soort:psibr rdfs:label "Persoon in bedelingsregister" ; dc:identfier "435" .
+soort:psik rdfs:label "Persoon in kohier" ; dc:identfier "788" .
+soort:psinsg rdfs:label "Persoon inschrijving Synagoge" ; dc:identfier "394" .
+soort:psk rdfs:label "Persoon in Kamp" ; dc:identfier "310" .
+soort:pskr rdfs:label "Persoon voor krijgsraad" ; dc:identfier "274" .
+soort:pskrk rdfs:label "Persoon in kerkelijk register" ; dc:identfier "264" .
+soort:pskrt rdfs:label "Persoonskaart" ; dc:identfier "455" .
+soort:psl rdfs:label "Persoon in landstorm" ; dc:identfier "373" .
+soort:psm rdfs:label "Persoon in militieregister" ; dc:identfier "265" .
+soort:psms rdfs:label "Persoon in memorie van successie" ; dc:identfier "275" .
+soort:psn rdfs:label "Persoon" ; dc:identfier "108" .
+soort:psngi rdfs:label "Persoon in GI" ; dc:identfier "553" .
+soort:psnpd rdfs:label "Persoon in procesdossier" ; dc:identfier "586" .
+soort:psp rdfs:label "Persoon in publicatie" ; dc:identfier "145" .
+soort:pspb rdfs:label "Persoon in poorterboek" ; dc:identfier "846" .
+soort:pspop rdfs:label "Poppersoon" ; dc:identfier "642" .
+soort:pspr rdfs:label "Persoon in personeelsregister" ; dc:identfier "848" .
+soort:pspsr rdfs:label "Persoon in pensioenregister" ; dc:identfier "850" .
+soort:psrol rdfs:label "Rol" ; dc:identfier "646" .
+soort:pssch rdfs:label "Persoon in schutterij" ; dc:identfier "555" .
+soort:pssge rdfs:label "Passage" ; dc:identfier "706" .
+soort:pstr rdfs:label "Persoon in taxatierapport" ; dc:identfier "552" .
+soort:psv rdfs:label "Persoon in vonnis" ; dc:identfier "88" .
+soort:ptest rdfs:label "Prestatieniveautest" ; dc:identfier "361" .
+soort:ptnt rdfs:label "Patiënt" ; dc:identfier "323" .
+soort:pvcie rdfs:label "Provincie" ; dc:identfier "769" .
+soort:pzgl rdfs:label "Postzegel" ; dc:identfier "664" .
+soort:raadinfo rdfs:label "Raadsinformatie" ; dc:identfier "1027" .
+soort:raadvst rdfs:label "Raadsvoorstel" ; dc:identfier "1029" .
+soort:realia rdfs:label "Realia" ; dc:identfier "350" .
+soort:reg rdfs:label "Regest" ; dc:identfier "10" .
+soort:regeig rdfs:label "Register van eigendom" ; dc:identfier "267" .
+soort:regmb rdfs:label "Registratiekaart militaire begraafplaats" ; dc:identfier "266" .
+soort:rek rdfs:label "Rekwestrant" ; dc:identfier "40" .
+soort:relea rdfs:label "Release" ; dc:identfier "638" .
+soort:res rdfs:label "Resolutie" ; dc:identfier "209" .
+soort:rfco rdfs:label "Contexttoegang" ; dc:identfier "84" .
+soort:rgst rdfs:label "Registervermelding" ; dc:identfier "483" .
+soort:rks rdfs:label "Reeks" ; dc:identfier "98" .
+soort:rkst rdfs:label "Rekestrant" ; dc:identfier "329" .
+soort:rla rdfs:label "Rol in act" ; dc:identfier "662" .
+soort:rmp rdfs:label "Riemkap" ; dc:identfier "683" .
+soort:rorg rdfs:label "Raadpleegorganisatie" ; dc:identfier "1031" .
+soort:rpiv rdfs:label "Rechtspersoon in vergunning" ; dc:identfier "910" .
+soort:rpost rdfs:label "Rekeningpost" ; dc:identfier "74" .
+soort:rspsn rdfs:label "Rechtspersoon" ; dc:identfier "827" .
+soort:rub rdfs:label "Rubriek" ; dc:identfier "6" .
+soort:rvwm rdfs:label "Register van weerbare mannen" ; dc:identfier "874" .
+soort:sa rdfs:label "Schepenakte" ; dc:identfier "225" .
+soort:sabs rdfs:label "Supplement akte burgerlijke stand" ; dc:identfier "896" .
+soort:sas rdfs:label "Schade aan Stuk" ; dc:identfier "774" .
+soort:sat rdfs:label "Suppletoire aanwijzende tafel" ; dc:identfier "261" .
+soort:sb rdfs:label "Schuldbekentenis" ; dc:identfier "105" .
+soort:sbes rdfs:label "Serie" ; dc:identfier "139" .
+soort:sboek rdfs:label "Serie boeken" ; dc:identfier "118" .
+soort:sc rdfs:label "Schadeconstatering" ; dc:identfier "773" .
+soort:schp rdfs:label "Schip" ; dc:identfier "415" .
+soort:scn rdfs:label "Scan bij een inventarisnummer" ; dc:identfier "187" .
+soort:scnni rdfs:label "Gescand inventarisnummer" ; dc:identfier "186" .
+soort:scnt rdfs:label "Toegang met Scans" ; dc:identfier "185" .
+soort:scntni rdfs:label "Toegang met scans bij één stuk" ; dc:identfier "188" .
+soort:sd rdfs:label "Studentdossier" ; dc:identfier "222" .
+soort:selreg rdfs:label "Selectieregel" ; dc:identfier "147" .
+soort:sgkrt rdfs:label "Persoon op signalementskaart" ; dc:identfier "484" .
+soort:sgre rdfs:label "Stemgerechtigde" ; dc:identfier "357" .
+soort:shdr rdfs:label "Schilderij" ; dc:identfier "499" .
+soort:siso rdfs:label "SISO-Code" ; dc:identfier "149" .
+soort:skr rdfs:label "Serie kranten" ; dc:identfier "289" .
+soort:skz rdfs:label "Suikerzakje" ; dc:identfier "92" .
+soort:slf rdfs:label "Slaaf" ; dc:identfier "798" .
+soort:sloopdos rdfs:label "Sloopdossier" ; dc:identfier "262" .
+soort:sloopverg rdfs:label "Sloopvergunning" ; dc:identfier "861" .
+soort:spbk rdfs:label "Serie prentbriefkaarten" ; dc:identfier "47" .
+soort:srafb rdfs:label "Serie afbeeldingen" ; dc:identfier "168" .
+soort:srbd rdfs:label "Serie bouwdossiers" ; dc:identfier "908" .
+soort:stdos rdfs:label "Steundossier" ; dc:identfier "772" .
+soort:stijd rdfs:label "Serie tijdschriften" ; dc:identfier "121" .
+soort:strb rdfs:label "Stripboek" ; dc:identfier "315" .
+soort:strn rdfs:label "Straatnaam" ; dc:identfier "165" .
+soort:strs rdfs:label "Stripstrook" ; dc:identfier "384" .
+soort:sub rdfs:label "Subarchief" ; dc:identfier "12" .
+soort:subcat rdfs:label "Subcategorie" ; dc:identfier "228" .
+soort:svbb_rdg rdfs:label "Std. voor beh. en bewerken RGD" ; dc:identfier "648" .
+soort:syn rdfs:label "Synonym" ; dc:identfier "422" .
+soort:syngrp rdfs:label "Synonymengroep" ; dc:identfier "421" .
+soort:synlst rdfs:label "Synonymenlijst" ; dc:identfier "420" .
+soort:tb rdfs:label "Tijdsbalk" ; dc:identfier "22" .
+soort:tbe rdfs:label "Tijdsbalkeenheid" ; dc:identfier "23" .
+soort:tblrow rdfs:label "Tablerow" ; dc:identfier "759" .
+soort:tbstr rdfs:label "Tabstrook" ; dc:identfier "172" .
+soort:tdl rdfs:label "Tekstonderdeel" ; dc:identfier "80" .
+soort:test_abk_nt rdfs:label "ABk,NTNI,COL,NT" ; dc:identfier "9072" .
+soort:tgkrt rdfs:label "Topografische kaart" ; dc:identfier "365" .
+soort:tgl rdfs:label "Tegel" ; dc:identfier "713" .
+soort:th rdfs:label "Tableheader" ; dc:identfier "337" .
+soort:thtm rdfs:label "Thesaurusterm" ; dc:identfier "658" .
+soort:tjt rdfs:label "Tienjarentafel" ; dc:identfier "380" .
+soort:tm rdfs:label "Termijn" ; dc:identfier "336" .
+soort:tnds rdfs:label "Tienddossier" ; dc:identfier "386" .
+soort:tng rdfs:label "Tekening" ; dc:identfier "57" .
+soort:toesta rdfs:label "Toegangsstatus" ; dc:identfier "570" .
+soort:tpd rdfs:label "Tribunaal procesdossier" ; dc:identfier "367" .
+soort:tra rdfs:label "Trouwakte" ; dc:identfier "142" .
+soort:trbel rdfs:label "Transportbelasting" ; dc:identfier "333" .
+soort:trck rdfs:label "Track" ; dc:identfier "404" .
+soort:trd rdfs:label "Tablerowdata" ; dc:identfier "338" .
+soort:trgld rdfs:label "Trouwgeld" ; dc:identfier "334" .
+soort:trst rdfs:label "Toerist" ; dc:identfier "295" .
+soort:ts rdfs:label "Tijdschrift" ; dc:identfier "42" .
+soort:tsart rdfs:label "Artikel in tijdschrift" ; dc:identfier "43" .
+soort:tsc rdfs:label "Transcriptie" ; dc:identfier "272" .
+soort:tscni rdfs:label "Getranscribeerd invnr" ; dc:identfier "478" .
+soort:tsct rdfs:label "Transcriptietoegang" ; dc:identfier "477" .
+soort:tspg rdfs:label "Tijschriftpagina" ; dc:identfier "574" .
+soort:tss rdfs:label "Tijdschrift in serie" ; dc:identfier "87" .
+soort:tst rdfs:label "Tekst" ; dc:identfier "39" .
+soort:ttek rdfs:label "Technische tekening" ; dc:identfier "58" .
+soort:twin rdfs:label "Trouwinschrijving" ; dc:identfier "157" .
+soort:txtillu rdfs:label "Tekstillustratie" ; dc:identfier "770" .
+soort:udc rdfs:label "UDC-Code" ; dc:identfier "89" .
+soort:uitgpost rdfs:label "Uitgaand poststuk" ; dc:identfier "1024" .
+soort:url rdfs:label "Internetadres" ; dc:identfier "287" .
+soort:va rdfs:label "Verkoopakte" ; dc:identfier "101" .
+soort:vabk rdfs:label "Verzameltoegang" ; dc:identfier "290" .
+soort:vafb rdfs:label "Vervaardiger van afbeelding" ; dc:identfier "167" .
+soort:vb rdfs:label "Verzamelbeschrijving" ; dc:identfier "2" .
+soort:vdb rdfs:label "Verzameldeelbeschrijving" ; dc:identfier "3" .
+soort:vdbb rdfs:label "Videoband beschrijving" ; dc:identfier "568" .
+soort:vdr rdfs:label "Vervaardiger" ; dc:identfier "177" .
+soort:vepl rdfs:label "Vestigingsplaats" ; dc:identfier "71" .
+soort:verg rdfs:label "Vergunning" ; dc:identfier "339" .
+soort:verm rdfs:label "Vermelding" ; dc:identfier "392" .
+soort:vero rdfs:label "Verordening" ; dc:identfier "107" .
+soort:vfest rdfs:label "Festival" ; dc:identfier "647" .
+soort:vg rdfs:label "Vredegerecht" ; dc:identfier "55" .
+soort:vgnt rdfs:label "Vignet" ; dc:identfier "680" .
+soort:vind rdfs:label "Vinding" ; dc:identfier "434" .
+soort:visrcht rdfs:label "Visrecht" ; dc:identfier "707" .
+soort:vlgn rdfs:label "Vlag" ; dc:identfier "624" .
+soort:vlreg rdfs:label "Vluchtelingenregister" ; dc:identfier "766" .
+soort:vlu rdfs:label "Vluchteling" ; dc:identfier "550" .
+soort:vng rdfs:label "VNG-code" ; dc:identfier "95" .
+soort:vngrub rdfs:label "VNG-rubriek" ; dc:identfier "214" .
+soort:von rdfs:label "Vonnis" ; dc:identfier "216" .
+soort:vsg rdfs:label "Verslag" ; dc:identfier "768" .
+soort:vw rdfs:label "Voorwerp" ; dc:identfier "53" .
+soort:vwg rdfs:label "Verwijsbeschrijving" ; dc:identfier "603" .
+soort:vzb rdfs:label "Verzetsbetrokkene" ; dc:identfier "129" .
+soort:vzs rdfs:label "Verzoekschrift" ; dc:identfier "482" .
+soort:wbex rdfs:label "Webexpositie" ; dc:identfier "412" .
+soort:wbexit rdfs:label "Webexpositie item" ; dc:identfier "413" .
+soort:wbk rdfs:label "Woordenboek" ; dc:identfier "416" .
+soort:wdrw rdfs:label "Waardedrukwerk" ; dc:identfier "678" .
+soort:wetknd rdfs:label "Wettiging kind" ; dc:identfier "115" .
+soort:windrcht rdfs:label "Windrecht" ; dc:identfier "708" .
+soort:winverl rdfs:label "Aanwinsten en verliezen" ; dc:identfier "311" .
+soort:wndos rdfs:label "Woondossier" ; dc:identfier "618" .
+soort:wnkrt rdfs:label "Woningkaart" ; dc:identfier "456" .
+soort:woon rdfs:label "Woonomgeving" ; dc:identfier "9073" .
+soort:wp_ghg rdfs:label "Persoons- en Woningkaarten GHG" ; dc:identfier "9051" .
+soort:wrknmr rdfs:label "Werknemer" ; dc:identfier "324" .
+soort:wskd rdfs:label "Weeskind" ; dc:identfier "198" .
+soort:wvoverg rdfs:label "WVO vergunning" ; dc:identfier "480" .
+soort:wyng rdfs:label "Wayang" ; dc:identfier "907" .
+soort:wzdos rdfs:label "Wezendossier" ; dc:identfier "636" .
+soort:xvrwz rdfs:label "Verwijzing in MF niet voor gebruik op MW" ; dc:identfier "63" .
+soort:zaaka rdfs:label "Zaak in akte" ; dc:identfier "117" .
+soort:zgl rdfs:label "Zegel" ; dc:identfier "207" .
+soort:zi_krt rdfs:label "Kranten" ; dc:identfier "9014" .
+soort:zi_-1 rdfs:label "Archiefdiensten" ; dc:identfier "7999" .
+soort:zk rdfs:label "Zaak" ; dc:identfier "898" .
+soort:zkat rdfs:label "Zoekactie" ; dc:identfier "246" .
+soort:zkvg rdfs:label "Zoekvraag" ; dc:identfier "561" .
+soort:zwr rdfs:label "Zoekwijzer" ; dc:identfier "245" .
