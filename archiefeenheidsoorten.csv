@@ -126,7 +126,7 @@
 "BB_VPN","Beeldbank VPN",9058
 "BCS","Bibliotheekcatalogus",83
 "BD","Bouwdossier",31
-"BD/GBVG","Bdossier en vergunningen",9101
+"BD_GBVG","Bdossier en vergunningen",9101
 "BDLPPR","Boedelpapier",580
 "BDPN","Borduurpatroon",238
 "BE","Bestek",308
@@ -135,7 +135,7 @@
 "BGIN","Begraafinschrijving",158
 "BGRR","Belastingregister",479
 "BGRV","Burgerrechtverlening",229
-"BG/STRN/LEM","Wetenswaardigheden",9102
+"BG_STRN_LEM","Wetenswaardigheden",9102
 "BHOBJ","Bouwhistorisch object",276
 "BIBD","Bibliografisch document",184
 "BIB_GAR","Bibliotheek GAR",9106
@@ -379,7 +379,7 @@
 "HUWB","Huwelijksbijlage",410
 "HUWDIS","Huwelijksdispensatie",284
 "HWV","Hinderwetvergunning",204
-"HWV/MILV","Vergunningen",9100
+"HWV_MILV","Vergunningen",9100
 "HYSCH","Hypotheekschuldenaar",298
 "IB","Identiteitsbewijs",865
 "IDDOC","ID Document",356
