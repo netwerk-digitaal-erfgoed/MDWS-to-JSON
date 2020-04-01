@@ -18,7 +18,11 @@ var lineReader = readline.createInterface({
 console.log('[');
 lineReader.on('line', function (str) {
     
-    if (!item && str=="") return console.warn("empty line(s) at the beginning");
+    if (str=="") { //solves issue #3
+      console.warn("Warning: empty line, creating new empty item"); //mogelijk een VABK (verzameltoegang)
+      nextItem("","");
+      return;
+    }
     
     var r,key,val,aetID,aetCode,code;
 
@@ -56,7 +60,8 @@ lineReader.on('close', function (line) {
 function nextItem(key,val) {
   // console.warn("nextitem",key,val)
   if (item) saveItem(); //save if there's currently an item being parsed (not header)
-  item = { aet: key } //, recordID: parseInt(val) }; //create a new item
+  item = {}; //create a new item
+  if (key) item.aet = key; //don't add empty aet's caused by issue #3
   updateItem(key,val); //add identifier such as ft=123 or krt=5
 }
 
