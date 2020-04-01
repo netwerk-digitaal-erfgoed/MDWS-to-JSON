@@ -35,7 +35,8 @@ lineReader.on('line', function (str) {
     
     //detect empty line to solve issue #3
     if (str=="") { 
-      nextItem("","") && console.warn("Warning: empty line, creating new empty item"); //mogelijk een VABK (verzameltoegang)
+      console.warn("Warning: empty line, creating new empty item"); //mogelijk een VABK (verzameltoegang)
+      nextItem("","");
     }
 
     //use aetCode or default to abk
