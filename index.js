@@ -4,8 +4,8 @@ const fs = require('fs');
 const readline = require('readline');
 const csv = require('csv-parse/lib/sync')
 const filename = process.argv[2];
-if (!filename) return console.log('usage: ./index.js input_file.txt');
-if (!fs.existsSync(filename)) return console.log('File not found: ' + filename);
+if (!filename) return console.error('usage: ./index.js input_file.txt');
+if (!fs.existsSync(filename)) return console.error('File not found: ' + filename);
 
 var item,itemIndex=0,items=[],prevKey;
 var separator = "(1) = ";
