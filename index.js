@@ -18,8 +18,6 @@ var lineReader = readline.createInterface({
 console.log('[');
 lineReader.on('line', function (str) {
     
-    
-    
     var r,key,val,aetID,aetCode,code;
 
     //extract key and value
@@ -36,13 +34,20 @@ lineReader.on('line', function (str) {
     //detect empty line to solve issue #3
     if (str=="") { 
       console.warn("Warning: empty line, creating new empty item"); //mogelijk een VABK (verzameltoegang)
-      nextItem("","");
+      nextItem();
     }
 
     //use aetCode or default to abk
     else if (key=="%0") {
       key = aetCode ? aetCode : "abk";
       nextItem(key,val);
+    }
+
+    //found extra (not the same) GUID -> create new item as fix
+    else if (item && item["GUID"] && key && key.toUpperCase()=="GUID" && item["GUID"]!=val) {
+      console.warn("Warning: found extra and different GUID in same item. Creating new item",val,item);
+      nextItem();
+      updateItem("GUID",val);
     }
 
     //skip items with unkown type at the top
@@ -64,7 +69,6 @@ lineReader.on('close', function (line) {
 });
 
 function nextItem(key,val) {
-  // console.warn("nextitem",key,val)
   if (item) saveItem(); //save if there's currently an item being parsed (not header)
   item = {}; //create a new item
   if (key) item.aet = key; //don't add empty aet's caused by issue #3
@@ -88,19 +92,20 @@ function saveItem() {
 }
 
 function updateItem(key,val) {
-    if (!item) return console.error("Error: Skip updateItem because item is undefined: ",key,val);
-    var value = val.trim();
-    if (key=="guid") key="GUID"; //always write GUID in uppercase
-    
-    if (key==item.aet && val) item.code = val;
-    else if (item && val) {
-        if (!item[key]) item[key] = value; //store single item
-        else {
-          if (!Array.isArray(item[key])) item[key] = [ item[key] ]; //convert to array when key already exists
-          item[key].push(value);
-        } 
-    }
-    prevKey = key;
+  if (key==undefined || val==undefined) return;
+  if (!item) return console.error("Error: Skip updateItem because item is undefined: ",key,val);
+  var value = val.trim();
+  if (key=="guid") key="GUID"; //always write GUID in uppercase
+  
+  if (key==item.aet && val) item.code = val;
+  else if (item && val) {
+      if (!item[key]) item[key] = value; //store single item
+      else {
+        if (!Array.isArray(item[key])) item[key] = [ item[key] ]; //convert to array when key already exists
+        item[key].push(value);
+      } 
+  }
+  prevKey = key;
 }
 
 function die(a,b,c,d,e) {
