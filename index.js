@@ -18,11 +18,7 @@ var lineReader = readline.createInterface({
 console.log('[');
 lineReader.on('line', function (str) {
     
-    if (str=="") { //solves issue #3
-      console.warn("Warning: empty line, creating new empty item"); //mogelijk een VABK (verzameltoegang)
-      nextItem("","");
-      return;
-    }
+    
     
     var r,key,val,aetID,aetCode,code;
 
@@ -36,11 +32,20 @@ lineReader.on('line', function (str) {
     aetID = r ? r[1] :  null;
     aetCode = aetID ? soorten.find(o => o[2] == aetID)[0].toLowerCase() : null;
 
+    
+    //detect empty line to solve issue #3
+    if (str=="") { 
+      nextItem("","") && console.warn("Warning: empty line, creating new empty item"); //mogelijk een VABK (verzameltoegang)
+    }
+
     //use aetCode or default to abk
-    if (key=="%0") key = aetCode ? aetCode : "abk";
+    else if (key=="%0") {
+      key = aetCode ? aetCode : "abk";
+      nextItem(key,val);
+    }
 
     //skip items with unkown type at the top
-    if (!item && key && !soorten.find(o => o[0].toLowerCase() == key)) return console.warn("Warning: Skip unknown type at start",str);
+    else if (!item && key && !soorten.find(o => o[0].toLowerCase() == key)) return console.warn("Warning: Skip unknown type at start",str);
 
     //multi-line value
     else if (item && !key) updateItem(prevKey,str); //multi-line
