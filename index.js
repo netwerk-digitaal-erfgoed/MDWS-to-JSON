@@ -45,7 +45,7 @@ lineReader.on('line', function (str) {
 
     //found extra (not the same) GUID -> create new item as fix
     else if (item && item["GUID"] && key && key.toUpperCase()=="GUID" && item["GUID"]!=val) {
-      console.warn("Warning: found extra and different GUID in same item. Creating new item",val,item);
+      console.warn("Warning: found extra and different GUID in same item. Creating new item",val);
       nextItem();
       updateItem("GUID",val);
     }
@@ -79,9 +79,10 @@ function saveItem() {
     /// check here for unexpected results: for example two GUIDS
 
     //soms zit dezelfde GUID 2x in de uitvoer van een record: ontdubbel
-    if (Array.isArray(item["GUID"]) && item["GUID"].length==2 && item["GUID"][0]==item["GUID"][1]) {
-      item["GUID"] = item["GUID"][0];
-    }
+    //deze check kan nu weg aangezien in updateItem dubbele key=value pairs worden ontdubbelt.
+    // if (Array.isArray(item["GUID"]) && item["GUID"].length==2 && item["GUID"][0]==item["GUID"][1]) {
+    //   item["GUID"] = item["GUID"][0];
+    // }
 
     if (!item) console.error("Error: Skip saveItem because item is undefined");
     else if (Array.isArray(item["GUID"])) console.error("Error: Skip saveItem because item has multiple GUIDs. This might indicate an unknown aetCode - ",item,Object.keys(item));
@@ -100,6 +101,7 @@ function updateItem(key,val) {
   if (key==item.aet && val) item.code = val;
   else if (item && val) {
       if (!item[key]) item[key] = value; //store single item
+      else if (item[key]==value) console.warn("Warning: ignoring second occurence of",key,"=",val); // ignore second occurence of key value pair. issue #9
       else {
         if (!Array.isArray(item[key])) item[key] = [ item[key] ]; //convert to array when key already exists
         item[key].push(value);
