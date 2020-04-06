@@ -7,6 +7,7 @@ const filename = process.argv[2];
 if (!filename) return console.error('usage: ./index.js input_file.txt');
 if (!fs.existsSync(filename)) return console.error('File not found: ' + filename);
 
+var GUIDsById = []; //lookup table for parents
 var item,itemIndex=0,items=[],prevKey;
 var separator = "(1) = ";
 var soorten = csv(fs.readFileSync(__dirname + "/archiefeenheidsoorten.csv"))
@@ -76,20 +77,26 @@ function nextItem(key,val) {
 }
 
 function saveItem() {
-    /// check here for unexpected results: for example two GUIDS
+  if (!item) return console.error("Error: Skip saveItem because item is undefined");
+  else if (Array.isArray(item["GUID"])) return console.error("Error: Skip saveItem because item has multiple (different) GUIDs. This might indicate an unknown aetCode - ",item,Object.keys(item));
 
-    //soms zit dezelfde GUID 2x in de uitvoer van een record: ontdubbel
-    //deze check kan nu weg aangezien in updateItem dubbele key=value pairs worden ontdubbelt.
-    // if (Array.isArray(item["GUID"]) && item["GUID"].length==2 && item["GUID"][0]==item["GUID"][1]) {
-    //   item["GUID"] = item["GUID"][0];
-    // }
+  GUIDsById[item.id] = item.GUID; //save this item's GUID in a lookup table for matching with child items
 
-    if (!item) console.error("Error: Skip saveItem because item is undefined");
-    else if (Array.isArray(item["GUID"])) console.error("Error: Skip saveItem because item has multiple GUIDs. This might indicate an unknown aetCode - ",item,Object.keys(item));
-    else {
-      if (itemIndex++>0) console.log(",");
-      console.log(JSON.stringify(item,null,4));
-    }
+  if (item.ahd_id) {
+    if (GUIDsById[item.ahd_id]) item.parentItem = GUIDsById[item.ahd_id];
+    else console.warn("Warning: Unknown parent for item",item.GUID,"ahd_id",item.ahd_id,"not found");
+  }
+
+  delete item["id"];
+  delete item["ahd_id"];
+  delete item["FNC_DTM"];
+  delete item["Moveup"];
+  delete item["MoveEventTo"];
+  delete item["Eventdate"];
+  delete item["Eventlocation"];
+
+  if (itemIndex++>0) console.log(",");
+  console.log(JSON.stringify(item,null,4));
 }
 
 function updateItem(key,val) {
@@ -97,13 +104,13 @@ function updateItem(key,val) {
   if (val==undefined) return console.error("Error: Skip updateItem: value undefined")
   if (item==undefined) return console.error("Error: Skip updateItem: item is undefined: ",key,val);
 
-  // var value = val.trim();
+  // var value = val.trim(); //check if this is safe to remove
   if (key=="guid") key="GUID"; //always write GUID in uppercase
   
   if (key==item.aet && val) item.code = val;
   else if (item && val) {
       if (!item[key]) item[key] = val; //store single item
-      else if (item[key]==val) console.warn("Warning: ignoring second occurence of",key,"=",val); // ignore second occurence of key value pair. issue #9
+      else if (item[key]==val) console.warn("Warning: ignoring second occurence of",key,"=",val,"for",item.GUID); // ignore second occurence of key value pair. issue #9
       else {
         if (!Array.isArray(item[key])) item[key] = [ item[key] ]; //convert to array when key already exists
         item[key].push(val);
@@ -111,9 +118,3 @@ function updateItem(key,val) {
   }
   prevKey = key;
 }
-
-function die(a,b,c,d,e) {
-    console.error(a,b,c,d,e);
-    process.exit(1);
-}
-
