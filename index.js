@@ -93,18 +93,20 @@ function saveItem() {
 }
 
 function updateItem(key,val) {
-  if (key==undefined || val==undefined) return;
-  if (!item) return console.error("Error: Skip updateItem because item is undefined: ",key,val);
-  var value = val.trim();
+  if (key==undefined) return console.error("Error: Skip updateItem: key undefined");
+  if (val==undefined) return console.error("Error: Skip updateItem: value undefined")
+  if (item==undefined) return console.error("Error: Skip updateItem: item is undefined: ",key,val);
+
+  // var value = val.trim();
   if (key=="guid") key="GUID"; //always write GUID in uppercase
   
   if (key==item.aet && val) item.code = val;
   else if (item && val) {
-      if (!item[key]) item[key] = value; //store single item
-      else if (item[key]==value) console.warn("Warning: ignoring second occurence of",key,"=",val); // ignore second occurence of key value pair. issue #9
+      if (!item[key]) item[key] = val; //store single item
+      else if (item[key]==val) console.warn("Warning: ignoring second occurence of",key,"=",val); // ignore second occurence of key value pair. issue #9
       else {
         if (!Array.isArray(item[key])) item[key] = [ item[key] ]; //convert to array when key already exists
-        item[key].push(value);
+        item[key].push(val);
       } 
   }
   prevKey = key;
