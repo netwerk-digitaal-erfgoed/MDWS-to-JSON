@@ -108,7 +108,10 @@ function updateItem(key,val) {
   // var value = val.trim(); //check if this is safe to remove.
   if (key=="guid") key="GUID"; //always write GUID in uppercase
   
-  if (key==item.aet && val) item.code = val;
+  if (key==item.aet && val) { //extract code: %0(1) = BIBLIO_BOEK [aet_id=14]
+    const r = val.match(/(.*) \[aet_/); 
+    if (r) item.code = r[1];
+  }
   else if (item && val) {
       if (!item[key]) item[key] = val; //store single item
       else if (item[key]==val || (Array.isArray(item[key]) && item[key].indexOf(val)>-1)) console.warn("Warning: ignoring second occurence of",key,"=",val,"for",item.GUID || item.id); // ignore second occurence of key value pair. issue #9
