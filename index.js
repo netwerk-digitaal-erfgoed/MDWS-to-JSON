@@ -78,7 +78,8 @@ function nextItem(key,val) {
 
 function saveItem() {
   if (!item) return console.error("Error: Skip saveItem because item is undefined");
-  else if (Array.isArray(item["GUID"])) return console.error("Error: Skip saveItem because item has multiple (different) GUIDs. This might indicate an unknown aetCode - ",item,Object.keys(item));
+  
+  // else if (Array.isArray(item["GUID"])) return console.error("Error: Skip saveItem because item has multiple (different) GUIDs. This might indicate an unknown aetCode - ",item,Object.keys(item));
 
   GUIDsById[item.id] = item.GUID; //save this item's GUID in a lookup table for matching with child items
 
@@ -104,13 +105,13 @@ function updateItem(key,val) {
   if (val==undefined) return console.error("Error: Skip updateItem: value undefined")
   if (item==undefined) return console.error("Error: Skip updateItem: item is undefined: ",key,val);
 
-  // var value = val.trim(); //check if this is safe to remove
+  // var value = val.trim(); //check if this is safe to remove.
   if (key=="guid") key="GUID"; //always write GUID in uppercase
   
   if (key==item.aet && val) item.code = val;
   else if (item && val) {
       if (!item[key]) item[key] = val; //store single item
-      else if (item[key]==val) console.warn("Warning: ignoring second occurence of",key,"=",val,"for",item.GUID); // ignore second occurence of key value pair. issue #9
+      else if (item[key]==val || (Array.isArray(item[key]) && item[key].indexOf(val)>-1)) console.warn("Warning: ignoring second occurence of",key,"=",val,"for",item.GUID || item.id); // ignore second occurence of key value pair. issue #9
       else {
         if (!Array.isArray(item[key])) item[key] = [ item[key] ]; //convert to array when key already exists
         item[key].push(val);
