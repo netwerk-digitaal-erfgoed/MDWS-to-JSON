@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 //usage: $ ./index.js INPUT.txt
+
 const fs = require('fs');
+// const iconv = require('iconv-lite');
 const readline = require('readline');
 const csv = require('csv-parse/lib/sync')
 const filename = process.argv[2];
@@ -12,13 +14,30 @@ var item,itemIndex=0,items=[],prevKey;
 var separator = "(1) = ";
 var soorten = csv(fs.readFileSync(__dirname + "/archiefeenheidsoorten.csv"))
 
+//detect character encoding
+// const detectCharacterEncoding = require('detect-character-encoding');
+// const encoding = detectCharacterEncoding(fs.readFileSync(filename)).encoding;
+
+// var lineReader = readline.createInterface({
+//   input: fs.createReadStream(filename)
+//     .pipe(iconv.decodeStream('win1251'))
+//     .pipe(iconv.encodeStream('utf-8'))
+
+//     //, {encoding:"windows-1252"})
+//   // , { encoding:
+//   //   encoding=="ISO-8859-1" ? "latin1" :
+//   //   encoding=="windows-1252" ? "ascii" :
+//   //   null
+//   // })
+// });
+
 var lineReader = readline.createInterface({
   input: fs.createReadStream(filename, {encoding: "latin1"})
 });
 
 console.log('[');
 lineReader.on('line', function (str) {
-    
+
     var r,key,val,aetID,aetCode,code;
 
     //extract key and value
@@ -108,10 +127,7 @@ function updateItem(key,val) {
   // var value = val.trim(); //check if this is safe to remove.
   if (key=="guid") key="GUID"; //always write GUID in uppercase
   
-  if (key==item.aet && val) { //extract code: %0(1) = BIBLIO_BOEK [aet_id=14]
-    const r = val.match(/(.*) \[aet_/); 
-    if (r) item.code = r[1];
-  }
+  if (key==item.aet && val) item.code = val.replace(/\[FASTUPLOAD\]\s|\[MODE=UPDATE2\]|\s\[aet_id=\d*\]/g,""); 
   else if (item && val) {
       if (!item[key]) item[key] = val; //store single item
       else if (item[key]==val || (Array.isArray(item[key]) && item[key].indexOf(val)>-1)) console.warn("Warning: ignoring second occurence of",key,"=",val,"for",item.GUID || item.id); // ignore second occurence of key value pair. issue #9
