@@ -76,7 +76,6 @@ lineReader.on('line', function (str) {
       updateItem(key,val);
     }
 
-    prevItem = item;
 });
 
 lineReader.on('close', function (line) {
@@ -110,6 +109,13 @@ function saveItem() {
   delete item["MoveEventTo"];
   delete item["Eventdate"];
   delete item["Eventlocation"];
+
+
+  if (prevItem && prevItem.parentItem  == item.parentItem && prevItem.GUID && !item["previousItem"]) {
+    updateItem("previousItem", prevItem.GUID);
+  }
+
+  prevItem = item;
 
   if (itemIndex++>0) console.log(",");
   console.log(JSON.stringify(item,null,4));
