@@ -2,7 +2,7 @@
 //usage: $ ./index.js INPUT.txt
 
 const fs = require('fs');
-// const iconv = require('iconv-lite');
+const iconv = require('iconv-lite');
 const readline = require('readline');
 const csv = require('csv-parse/lib/sync')
 const filename = process.argv[2];
@@ -10,30 +10,23 @@ if (!filename) return console.error('usage: ./index.js input_file.txt');
 if (!fs.existsSync(filename)) return console.error('File not found: ' + filename);
 
 var GUIDsById = []; //lookup table for parents
-var item,itemIndex=0,items=[],prevKey;
+var item,itemIndex=0,items=[],prevKey,prevItem;
 var separator = "(1) = ";
 var soorten = csv(fs.readFileSync(__dirname + "/archiefeenheidsoorten.csv"))
 
 //detect character encoding
-// const detectCharacterEncoding = require('detect-character-encoding');
-// const encoding = detectCharacterEncoding(fs.readFileSync(filename)).encoding;
-
-// var lineReader = readline.createInterface({
-//   input: fs.createReadStream(filename)
-//     .pipe(iconv.decodeStream('win1251'))
-//     .pipe(iconv.encodeStream('utf-8'))
-
-//     //, {encoding:"windows-1252"})
-//   // , { encoding:
-//   //   encoding=="ISO-8859-1" ? "latin1" :
-//   //   encoding=="windows-1252" ? "ascii" :
-//   //   null
-//   // })
-// });
+const detectCharacterEncoding = require('detect-character-encoding');
+var encoding = detectCharacterEncoding(fs.readFileSync(filename)).encoding;
+if (encoding=="windows-1252") encodig = "win1251";
+else if (encoding=="ISO-8859-1") encoding = "iso-8859-1";
+else return console.error("Unsupported character encoding",encoding);
 
 var lineReader = readline.createInterface({
-  input: fs.createReadStream(filename, {encoding: "latin1"})
+  input: fs.createReadStream(filename)
+    .pipe(iconv.decodeStream(encoding))
+    .pipe(iconv.encodeStream('utf-8'))
 });
+
 
 console.log('[');
 lineReader.on('line', function (str) {
@@ -50,7 +43,6 @@ lineReader.on('line', function (str) {
     aetID = r ? r[1] :  null;
     aetCode = aetID ? soorten.find(o => o[2] == aetID)[0].toLowerCase() : null;
 
-    
     //detect empty line to solve issue #3
     if (str=="") { 
       console.warn("Warning: empty line, creating new empty item"); //mogelijk een VABK (verzameltoegang)
@@ -80,7 +72,11 @@ lineReader.on('line', function (str) {
     else if (soorten.find(o => o[0].toLowerCase() == key)) nextItem(key,val);
 
     //update the current item
-    else updateItem(key,val);
+    else {
+      updateItem(key,val);
+    }
+
+    prevItem = item;
 });
 
 lineReader.on('close', function (line) {
