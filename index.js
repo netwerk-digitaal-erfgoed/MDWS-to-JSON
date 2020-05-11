@@ -17,18 +17,17 @@ var soorten = csv(fs.readFileSync(__dirname + "/archiefeenheidsoorten.csv"))
 //detect character encoding
 const detectCharacterEncoding = require('detect-character-encoding');
 var encoding = detectCharacterEncoding(fs.readFileSync(filename)).encoding;
-if (encoding=="windows-1252") encodig = "win1251";
-else if (encoding=="ISO-8859-1") encoding = "iso-8859-1";
-else return console.error("Unsupported character encoding",encoding);
+// if (encoding=="windows-1252") encoding = "win1251";
+// else if (encoding=="ISO-8859-1") encoding = "iso-8859-1";
+// else return console.error("Unsupported character encoding",encoding);
 
-var lineReader = readline.createInterface({
+var lineReader = readline.createInterface({ 
   input: fs.createReadStream(filename)
     .pipe(iconv.decodeStream(encoding))
     .pipe(iconv.encodeStream('utf-8'))
 });
 
 
-console.log('[');
 lineReader.on('line', function (str) {
 
     var r,key,val,aetID,aetCode,code;
@@ -80,7 +79,7 @@ lineReader.on('line', function (str) {
 
 lineReader.on('close', function (line) {
   if (item) saveItem();
-  console.log(']');
+  if (itemIndex>0) console.log(']');
 });
 
 function nextItem(key,val) {
@@ -92,7 +91,8 @@ function nextItem(key,val) {
 
 function saveItem() {
   if (!item) return console.error("Error: Skip saveItem because item is undefined");
-  
+  if (!item.GUID) return console.error("Error: Skip saveItem because item has no GUID",item); //item.id ? "(id="+item.id+")" : item);
+
   // else if (Array.isArray(item["GUID"])) return console.error("Error: Skip saveItem because item has multiple (different) GUIDs. This might indicate an unknown aetCode - ",item,Object.keys(item));
 
   GUIDsById[item.id] = item.GUID; //save this item's GUID in a lookup table for matching with child items
@@ -110,20 +110,19 @@ function saveItem() {
   delete item["Eventdate"];
   delete item["Eventlocation"];
 
-
-  if (prevItem && prevItem.parentItem  == item.parentItem && prevItem.GUID && !item["previousItem"]) {
+  if (prevItem && item.parentItem && prevItem.parentItem  == item.parentItem && prevItem.GUID && !item["previousItem"]) {
     updateItem("previousItem", prevItem.GUID);
   }
 
-  prevItem = item;
-
-  if (itemIndex++>0) console.log(",");
+  console.log(itemIndex++>0 ? "," : "[");
   console.log(JSON.stringify(item,null,4));
+
+  prevItem = item;
 }
 
 function updateItem(key,val) {
-  if (key==undefined) return console.error("Error: Skip updateItem: key undefined");
-  if (val==undefined) return console.error("Error: Skip updateItem: value undefined")
+  if (key==undefined) return console.error("Error: Skip updateItem: key undefined, value="+val);
+  if (val==undefined) return console.error("Error: Skip updateItem: value undefined, key="+key);
   if (item==undefined) return console.error("Error: Skip updateItem: item is undefined: ",key,val);
 
   // var value = val.trim(); //check if this is safe to remove.
