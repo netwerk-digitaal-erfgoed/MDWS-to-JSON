@@ -120,12 +120,13 @@ function saveItem() {
   prevItem = item;
 }
 
+//updateItem updates the current item with a key value pair
 function updateItem(key,val) {
   if (key==undefined) return console.error("Error: Skip updateItem: key undefined, value="+val);
-  if (val==undefined) return console.error("Error: Skip updateItem: value undefined, key="+key);
-  if (item==undefined) return console.error("Error: Skip updateItem: item is undefined: ",key,val);
+  else if (val==undefined) return console.error("Error: Skip updateItem: value undefined, key="+key);
+  else if (item==undefined) return console.error("Error: Skip updateItem: item is undefined:",key,val);
+  else if (key.indexOf(separator)>-1) return console.error("Error: Skip updateItem: Missing line break between fields:",key,val);
 
-  // var value = val.trim(); //check if this is safe to remove.
   if (key=="guid") key="GUID"; //always write GUID in uppercase
   
   if (key==item.aet && val) item.code = val.replace(/\[FASTUPLOAD\]\s|\[MODE=UPDATE2\]|\s\[aet_id=\d*\]/g,""); 
