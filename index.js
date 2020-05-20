@@ -102,8 +102,8 @@ function saveItem() {
     else console.warn("Warning: Unknown parent for item",item.GUID,"ahd_id",item.ahd_id,"not found");
   }
 
-  delete item["id"];
-  delete item["ahd_id"];
+  // delete item["id"];
+  // delete item["ahd_id"];
   delete item["FNC_DTM"];
   delete item["Moveup"];
   delete item["MoveEventTo"];
